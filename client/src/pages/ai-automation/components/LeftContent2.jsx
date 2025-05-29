@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Subtitle from "./Subtitle";
 import Paragraph from "./Paragraph";
+import { CtaButton } from "@/components";
 const HeroHeading = styled.h1`
     margin-top: 2rem;
     background-color: white;
@@ -50,20 +51,18 @@ const Button = styled.button`
     }
 `
 
-export default function LeftContent2({top, title, p, button, cutted}) {
+export default function LeftContent2({ top, title, p, button, cutted }) {
     return (
-        <div className={`${cutted?"w-2/5":"w-1/2"}`}>
-            {top &&<Subtitle top ={top}/>}
-            <HeroHeading dangerouslySetInnerHTML={{ __html: title }}/>   
-            <Paragraph p={p}/>
+        <div className={`${cutted ? "w-2/5" : "w-1/2"}`}>
+            {top && <Subtitle top={top} />}
+            <HeroHeading dangerouslySetInnerHTML={{ __html: title }} />
+            <Paragraph p={p} />
             <div className="flex mt-8 ">
                 <Link>
-                    <Div className="hover:scale-105 duration-300 transition-all ">
-                        <Button className="hover:scale-105 duration-300 transition-all">{button}</Button>
-                    </Div>
+                    <CtaButton content={button} defaultAction={false}></CtaButton>
                 </Link>
             </div>
-        
+
         </div>
     )
 }

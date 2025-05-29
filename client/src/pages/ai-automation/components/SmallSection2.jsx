@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import styled from "styled-components"
 import TexturedText from "./TexturedText"
+import { CtaButton } from "@/components"
 
 const Texture = styled.h1`
     margin-top: 2rem;
@@ -55,46 +56,44 @@ const P = styled.p`
         font-weight: 600;
     }
 `
-export default function SmallSection2({top, title, p, button}) {
+export default function SmallSection2({ top, title, p, button }) {
     return (
         <>
-        <div className="lg:p-[60px] p-2 w-full " >
-            <div className="flex flex-col items-center z-10 "style={{position:"relative"}}>
-                    {top &&<div className="subtitle">
+            <div className="lg:p-[60px] p-2 w-full " >
+                <div className="flex flex-col items-center z-10 " style={{ position: "relative" }}>
+                    {top && <div className="subtitle">
                         <div className="subtitle-background">
                             <h3>
                                 {top}
                             </h3>
                         </div>
                     </div>}
-                    
-                    <TexturedText title={title}/>
+
+                    <TexturedText title={title} />
+                </div>
             </div>
-        </div>
-        <div style={{position:"relative"}}>
-            <div 
-                style={{
-                    position: "absolute",
-                    background: "linear-gradient(to bottom, transparent, #01020b 35%, #01020b 75%, transparent)",
-                    backgroundBlendMode: "overlay" // optional for better blending
-                }} 
-                className="top-[-140px] left-0 w-full h-[calc(100%+240px)]"
-            >
+            <div style={{ position: "relative" }}>
+                <div
+                    style={{
+                        position: "absolute",
+                        background: "linear-gradient(to bottom, transparent, #01020b 35%, #01020b 75%, transparent)",
+                        backgroundBlendMode: "overlay" // optional for better blending
+                    }}
+                    className="top-[-140px] left-0 w-full h-[calc(100%+240px)]"
+                >
+                </div>
+                <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
+                    <P className="mt-2 text-center px-4 text-pretty" dangerouslySetInnerHTML={{ __html: p }} />
+                </div>
             </div>
-            <div className="lg:p-[60px] p-2 w-full " style={{position:"relative"}}>
-                <P className="mt-2 text-center px-4 text-pretty" dangerouslySetInnerHTML={{ __html: p }} />               
+            <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
+                {button && <div className="flex justify-center mt-2">
+                    <Link>
+                        <CtaButton content={button} defaultAction={false}></CtaButton>
+                    </Link>
+                </div>}
             </div>
-        </div>
-        <div className="lg:p-[60px] p-2 w-full " style={{position:"relative"}}>
-        {button && <div className="flex justify-center mt-2">
-            <Link>
-                <Div className="hover:scale-105 duration-300 transition-all">
-                    <Button className="hover:scale-105 duration-300 transition-all">{button}</Button>
-                </Div>
-            </Link>
-        </div>}
-        </div>
-        
+
         </>
     )
 }

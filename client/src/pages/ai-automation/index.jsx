@@ -8,18 +8,21 @@ import Questions from "./components/sections/Questions";
 import LastSection from "./components/sections/LastSection";
 import TopBar from "./components/sections/topBar";
 import HeroAi from "../../pages/landing/hero-section/Hero";
+import Pdf from "./components/sections/Pdf";
+import BeforeLastSection from "./components/sections/BeforeLastSection";
 export default function AiAutomation() {
     return (
         <div className="overflow-y-scroll h-[100vh] custom-scroll">
             <TopBar />
             <Hero />
             <HeroAi />
-            {/* <Section2 /> */}
-            {/* <ReverseSection /> */}
             <Services />
             {/* <AfterServices /> */}
             <Prices />
             <Questions />
+            <Pdf />
+            <ReverseSection />
+            <BeforeLastSection />
             <LastSection />
         </div>
     )

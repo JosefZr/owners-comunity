@@ -75,7 +75,7 @@ const Button = styled.button`
         width: auto;
     }
 `
-export default function Questions() {
+export default function BeforeLastSection() {
     return (
         <div style={{ position: "relative", fontFamily: "'Funnel Display', sans-serif" }}>
             <div className="w-full border-b-[1px] border-b-[#2b3340] block">
@@ -85,27 +85,11 @@ export default function Questions() {
                         <div className="lg:p-[30px] p-2 w-full" style={{ position: "relative" }}>
                             <div className="mt-5">
                                 <div className="flex flex-col items-center justify-center">
-                                    <Subtitle top="Let’s Get You Set Up" />
+                                    <Subtitle top="How we work" />
                                 </div>
                                 <HeroHeading >
-                                    You Don’t Need Another “Ad Guy.”
+                                    Book Your Free Strategy Call
                                 </HeroHeading>
-                                <P className="mt-4 max-w-[550px] text-center mx-auto" >
-                                    You need a partner who builds
-                                    <strong> the whole system.</strong>
-                                </P>
-                                <P className="mt-4 max-w-[550px] text-center mx-auto" >
-                                    offers that <strong>convert, </strong>
-                                    funnels that <strong>flow, </strong>
-                                    bots that <strong>close, </strong>
-                                    ads that <strong>sell. </strong>
-
-                                </P>
-                                <div className="flex mt-8 justify-center ">
-                                    <Link>
-                                        <CtaButton content="Yes I Need That" />
-                                    </Link>
-                                </div>
                             </div>
                         </div>
                     </div>
