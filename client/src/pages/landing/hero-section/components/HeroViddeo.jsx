@@ -34,42 +34,42 @@ font-size: 12px;
 `
 export default function HeroViddeo() {
   return (
-    <div className="max-w-[832px] mt-12 mx-auto w-full pt-4  z-10" style={{position:"relative"}}>
-      <H3 className="uppercase text-center mb-3">MAKE A CHOICE</H3>
-    <div
-      className="block  right-[430px] z-0 "
-      style={{
-        position: "absolute",
-        width: "600px",
-        height: "600px",
-        background: "radial-gradient(42.52% 42.52% at 50% 26.25%, #59799e59 -50%, transparent 90%)",
-      }}
-    ></div>
-    <div
-      className="block right-[20%] z-0 top-[300px]  max-md:hidden"
-      style={{
-        position: "absolute",
-        width: "600px",
-        height: "600px",
-        background: "radial-gradient(42.52% 42.52% at 50% 26.25%, #59799e59 -50%, transparent 90%)",
-      }}
-    ></div>
-    <div
-      className="block left-[430px] z-0 "
-      style={{
-        position: "absolute",
-        width: "600px",
-        height: "600px",
-        background: "radial-gradient(42.52% 42.52% at 50% 26.25%, #59799e59 -50%, transparent 90%)",
-      }}
-    ></div>
-      <div style={{position:"relative"}}>
-        <div style={{position:"relative", width:"100%"}}>
-          <div style={{position:"relative", maxWidth:"100%"}}>
-            <div className="w-full h-full  undefined" style={{position:"relative", paddingTop:"56%"}}>
+    <div className="max-w-[832px] mt-12 mx-auto w-full pt-4  z-10" style={{ position: "relative" }}>
+      <H3 className="uppercase text-center mb-3">Sick of “marketing” that does nothing?</H3>
+      <div
+        className="block  right-[430px] z-0 "
+        style={{
+          position: "absolute",
+          width: "600px",
+          height: "600px",
+          background: "radial-gradient(42.52% 42.52% at 50% 26.25%, #59799e59 -50%, transparent 90%)",
+        }}
+      ></div>
+      <div
+        className="block right-[20%] z-0 top-[300px]  max-md:hidden"
+        style={{
+          position: "absolute",
+          width: "600px",
+          height: "600px",
+          background: "radial-gradient(42.52% 42.52% at 50% 26.25%, #59799e59 -50%, transparent 90%)",
+        }}
+      ></div>
+      <div
+        className="block left-[430px] z-0 "
+        style={{
+          position: "absolute",
+          width: "600px",
+          height: "600px",
+          background: "radial-gradient(42.52% 42.52% at 50% 26.25%, #59799e59 -50%, transparent 90%)",
+        }}
+      ></div>
+      <div style={{ position: "relative" }}>
+        <div style={{ position: "relative", width: "100%" }}>
+          <div style={{ position: "relative", maxWidth: "100%" }}>
+            <div className="w-full h-full  undefined" style={{ position: "relative", paddingTop: "56%" }}>
               <iframe
                 className="border-none "
-                style={{position:"absolute", inset:"0px",height:"100%", width:"100%"}}
+                style={{ position: "absolute", inset: "0px", height: "100%", width: "100%" }}
                 src="https://player.vimeo.com/video/1068721558?h=c7ce8b625e&autoplay=1&muted=1&loop=1"
                 width="100%"
                 height="100%"
@@ -77,7 +77,7 @@ export default function HeroViddeo() {
                 allow="autoplay; fullscreen"
                 allowFullScreen
               >
-            </iframe>
+              </iframe>
             </div>
           </div>
         </div>

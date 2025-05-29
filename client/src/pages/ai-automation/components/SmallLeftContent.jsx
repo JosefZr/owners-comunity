@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import styled from "styled-components"
 import Top from "./Top"
+import { CtaButton } from "@/components"
 
 const Texture = styled.h1`
     margin-top: 2rem;
@@ -55,21 +56,21 @@ const P = styled.p`
         font-weight: 600;
     }
 `
-export default function SmallLeftContent({top, title, p, button}) {
+export default function SmallLeftContent({ top, title, p, button }) {
     return (
         <div>
-        <>
-            <Top top ={top}/>
-            <Texture className="mt-2 capitalize text-center">{title}</Texture>
-            <P className="mt-2 text-center px-4 text-pretty" dangerouslySetInnerHTML={{ __html: p }} />               
-            <div className="flex mt-4 justify-center pb-8">
-                <Link>
-                    <Div className="hover:scale-105 duration-300 transition-all">
-                        <Button className="hover:scale-105 duration-300 transition-all">{button}</Button>
-                    </Div>
-                </Link>
-            </div>
-        </>
+            <>
+                <Top top={top} />
+                <Texture className="mt-2 capitalize text-center">{title}</Texture>
+                <P className="mt-2 text-center px-4 text-pretty" dangerouslySetInnerHTML={{ __html: p }} />
+                <div className="flex mt-4 justify-center pb-8">
+                    <Link>
+                        <Div className="hover:scale-105 duration-300 transition-all">
+                            <CtaButton className="hover:scale-105 duration-300 transition-all" content={button} />
+                        </Div>
+                    </Link>
+                </div>
+            </>
         </div>
     )
 }

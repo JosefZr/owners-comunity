@@ -1,3 +1,4 @@
+import { CtaButton } from "@/components";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 const HeroHeading = styled.h1`
@@ -64,27 +65,27 @@ const P = styled.p`
         line-height: 28px;
     }
 `
-export default function LeftContent({top, title, p, button, cutted}) {
+export default function LeftContent({ top, title, p, button, cutted }) {
     return (
-        <div className={`${cutted?"w-2/5":"w-1/2"}`}>
+        <div className={`${cutted ? "w-2/5" : "w-1/2"}`}>
             <div className="subtitle-container">
                 <div className="subtitle">
                     <div className="subtitle-background">
                         <h3>
-                        {top}
+                            {top}
                         </h3>
                     </div>
                 </div>
             </div>
             <HeroHeading>
-                {title}                                    
+                {title}
             </HeroHeading>
-            <P className={` mt-8  ${cutted?"max-w-[408px]":""}`} dangerouslySetInnerHTML={{ __html: p }} />
+            <P className={` mt-8  ${cutted ? "max-w-[408px]" : ""}`} dangerouslySetInnerHTML={{ __html: p }} />
             <div className="flex mt-8 ">
                 <Link>
-                    <Div className="hover:scale-105 duration-300 transition-all ">
-                        <Button className="hover:scale-105 duration-300 transition-all">{button}</Button>
-                    </Div>
+                    {/* <Div className="hover:scale-105 duration-300 transition-all "> */}
+                    <CtaButton className="hover:scale-105 duration-300 transition-all" content={button} />
+                    {/* </Div> */}
                 </Link>
             </div>
         </div>

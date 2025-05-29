@@ -1,7 +1,5 @@
 import { size } from '@/lib/mediaQuerys';
 import styled from 'styled-components';
-import { GetHeroData } from '../Hero';
-import { Logo } from '@/components';
 const SubParagraph = styled.h2`
   color: var(--whiteGray);
   text-align: center;
@@ -41,29 +39,26 @@ const HeroHeading = styled.h1`
   }
 `;
 
-export default function HeroHeader({actor}) {
-    const heroData = GetHeroData(actor);
+export default function HeroHeader() {
   return (
-    <div className="flex flex-col gap-3 items-center " style={{
-      maxWidth:"90%"
+    <div className="flex flex-col gap-3 items-center mx-auto" style={{
+      maxWidth: "90%"
     }}>
-              <Logo />
-              <HeroHeading>
-                {heroData.map((data, index) => (
-                  <div key={index}>
-                    <h1>
-                      {data.title}
-                    </h1>
-                  </div>
-                ))}
-              </HeroHeading>
-              <SubParagraph>
-                {heroData.map((data, index) => (
-                  <div key={index}>
-                    {data.description}
-                  </div>
-                ))}
-              </SubParagraph>
-            </div>
+      {/* <Logo /> */}
+      <HeroHeading>
+        <div >
+          <h1>
+            You&apos;re running a business.
+            <br />
+            You don’t need more tasks.
+          </h1>
+        </div>
+      </HeroHeading>
+      <SubParagraph>
+        <div className='text-my-from'>
+          You need <span className="font-bold text-my-white">systems that make money. Fast.</span>
+        </div>
+      </SubParagraph>
+    </div>
   )
 }

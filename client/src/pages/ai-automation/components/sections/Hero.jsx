@@ -92,18 +92,23 @@ export default function Hero() {
     }
     const menu = [
         {
-            id: "Your ",
-            name: "Your Dental Network",
+            id: "Get My Marketing Plan.",
+            name: "Get My Marketing Plan.",
             route: "https://buildydn.com"
         },
         {
-            id: "Marketing",
-            name: "Marketing 1.2.3",
+            id: "Services.",
+            name: "Services.",
             route: "https://buildydn.com/#/growthSupport"
         },
         {
             id: "Free",
             name: "Free Guide",
+            route: "https://buildydn.com/#/growthSupport"
+        },
+        {
+            id: "Join The Parlor.",
+            name: "Join The Parlor.",
             route: "https://buildydn.com/#/growthSupport"
         }
     ]
@@ -226,13 +231,12 @@ export default function Hero() {
                         <div className="lg:p-[60px] p-2 w-full" style={{ position: "relative" }}>
                             <div className="flex">
                                 <LeftContent
-                                    top="Scale your dental Practice--like never before"
-                                    title="Turn Cold Visitors Into Paying Patients"
-                                    p="<strong>I run a clinic too. I know the chaos.</strong> <br/>
-                                        You’re mid-root canal, phones are ringing, front desk’s overwhelmed.<br/>
-                                        Leads get missed. Patients wait. Some never call back.<br/>
-                                        And just like that—<strong>money’s gone.</strong>"
-                                    button="BOOK YOUR FREE DEMO"
+                                    top="Marketing is strategy. Advertising is action."
+                                    title="Marketing Built for Results"
+                                    p="<strong>Your Ads Should Do One Thing:Attract Buyers Who Say “Yes” Without Hesitation.</strong> <br/>
+                                         We build the system that makes that happen.<br/>
+                                        "
+                                    button="Yes I Want That"
                                 />
                                 <RightVideo />
                             </div>
@@ -271,13 +275,12 @@ export default function Hero() {
                             </div>
                         </div>
                         <SmallLeftContent
-                            top="Scale your dental Practice--like never before"
-                            title="Turn Cold Visitors Into Paying Patients"
-                            p="<strong>I run a clinic too. I know the chaos.</strong>
-                                You’re mid-root canal, phones are ringing, front desk’s overwhelmed.
-                                Leads get missed. Patients wait. Some never call back.
-                                And just like that—<strong>money’s gone.</strong>"
-                            button="BOOK YOUR FREE DEMO"
+                            top="Marketing is strategy. Advertising is action."
+                            title="Marketing Built for Results"
+                            p="<strong>Your Ads Should Do One Thing:Attract Buyers Who Say “Yes” Without Hesitation.</strong> <br/>
+                                         We build the system that makes that happen.<br/>
+                                        "
+                            button="Yes I Want That"
                         />
                     </div>
                     <SmallRightShades />
