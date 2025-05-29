@@ -3,7 +3,7 @@ import WideLeftShades from "../Shades/WideLeftShades";
 import Subtitle from "../Subtitle";
 import styled from "styled-components";
 import GlowSquares from "../Shades/GlowSquares";
-import { GiSpiderWeb } from "react-icons/gi";
+import { GiPayMoney, GiSpiderWeb, GiTeacher } from "react-icons/gi";
 import { TbDatabaseDollar } from "react-icons/tb";
 import { FiPhoneOutgoing } from "react-icons/fi";
 import { RiCalendarScheduleFill } from "react-icons/ri";
@@ -14,6 +14,7 @@ import Player from "@vimeo/player";
 import SmallLeftShades from "../Shades/SmallLeftShades";
 import SmallRightShades from "../Shades/SmallRightShades";
 import SmallSection2 from "../SmallSection2";
+import { FaBusinessTime } from "react-icons/fa6";
 const VideoWrapper = styled.div`
   position: relative;
   padding-top: 56.25%;
@@ -97,40 +98,19 @@ const HeroHeading = styled.h1`
 `;
 const Items = [
     {
-        title: "Professional Website",
-        icon: <GiSpiderWeb />,
-        p: "Fast, modern, mobile-ready.<br/> <strong className='text-white'>Built to impress. Built to convert. </strong>Because your site <i>is</i> your first impression.",
-        video: "https://vimeo.com/1078415835",
+        title: "Do it yourself?",
+        icon: <FaBusinessTime />,
+        p: "If you have little to do, it's not a problem. However, if you're busy... this is not feasible. ",
     },
     {
-        title: "AI Chat Assistant",
-        icon: <img src="	https://www.cobratate.com/jointherealworld/cacm_icon.svg" />,
-        p: "<strong className='text-white'>Never miss another lead—even at 2 AM </strong> Answers questions, handles objections, collects patient info. It’s trained on your services and runs nonstop. No scripts. No sick days. Just performance.",
-        video: "https://vimeo.com/1038091773",
+        title: "Hire a team?",
+        icon: <GiTeacher />,
+        p: "Finding good people is difficult,  training them is expensive. Even if you find the perfect person... You still rely on one individual.",
     },
     {
-        title: "AI Phone Assistant",
-        icon: <FiPhoneOutgoing />,
-        p: "<strong className='text-white'>Answers every call. Schedules every visit. Speaks like a human. </strong> No more “please hold.” Natural voice. Real-time booking. 25+ languages. Let it do the talking while you work.",
-        video: "https://vimeo.com/1065688538",
-    },
-    {
-        title: "Auto-Scheduling & Reminders",
-        icon: <RiCalendarScheduleFill />,
-        p: "<strong className='text-white'>Fill your calendar without lifting a finger. </strong>Patients pick a time. The system sends reminders. They show up. You stay focused.</br> No-shows drop. Simple as that.",
-        img: "/ai/3.jpeg",
-    },
-    {
-        title: "AI Receptionist (Text or Voice)",
-        icon: <BsRobot />,
-        p: "<strong className='text-white'>Your front desk, upgraded. </strong> </br>Responds instantly through text or voice. Handles basic tasks, sends updates, keeps things moving.</br> Works 24/7. Never complains.",
-        img: "/ai/4.webp",
-    },
-    {
-        title: "Client Database + Follow-Ups",
-        icon: <TbDatabaseDollar />,
-        p: "<strong className='text-white'>Every lead saved. Every opportunity followed up. </strong></br> Build your patient list automatically. Track who booked, who didn’t, and follow up with precision.</br> More booked consults. Less chaos.",
-        img: "/ai/5.webp",
+        title: "Hire an agency?",
+        icon: <GiPayMoney />,
+        p: "Don't have a marketing budget of tens of thousands of euros per month? Well then your account is often managed by the intern of the assistant of the assistant. Not ideal.",
     },
 ]
 export default function Services() {
@@ -187,13 +167,14 @@ export default function Services() {
                     <div className="border-x-[1px] border-[#2b3340]">
                         <div className="lg:p-[60px] p-2 w-full" style={{ position: "relative" }}>
                             <div className="flex flex-col items-center justify-center">
-                                <Subtitle top="That ends today." />
+                                <Subtitle top="Marketing is important…" />
                             </div>
                             <HeroHeading >
-                                Here’s How We Fix It — Fast.
+                                …However, you’ve already got 49  things on your to-do list.
+                                Hiring. Sales. Payroll. Operations.
                             </HeroHeading>
 
-                            <P className="mt-4 max-w-[550px] text-center mx-auto" dangerouslySetInnerHTML={{ __html: "Every tool below is designed to save time, lock in more patients, and make your clinic run like a machine." }} />
+                            <P className="mt-4 max-w-[550px] text-center mx-auto" dangerouslySetInnerHTML={{ __html: "Now, <strong>you’re also expected to:</strong>  run ads, fix funnels, write copy, track leads, follow up, update your site... <br/> Come on. <br/><br/> <strong>What are you gonna do? </strong>" }} />
                         </div>
                     </div>
                     <div className="reveal-vertical-left">
@@ -218,7 +199,7 @@ export default function Services() {
                                     const videoId = item.video?.split("/").pop();
                                     return (
                                         <div key={index}>
-                                            <article className="bg-[#12131d] group cursor-pointer transition-all duration-500 border-[#2b3340] border-[1px] lg:h-[500px] h-full hover:border-white flex flex-col justify-between">                            <div>
+                                            <article className="bg-[#12131d] group cursor-pointer transition-all duration-500 border-[#2b3340] border-[1px] h-full hover:border-white flex flex-col justify-between">                            <div>
                                                 <div className="flex gap-3">
                                                     <div className="flex items-center justify-center h-[80px] w-[100px] border-r-[1px] border-r-[#2b3340] p-4 relative">
                                                         {item.icon.props?.src ? (
@@ -253,7 +234,7 @@ export default function Services() {
                                                     <P className="!text-[13px] lg:!text-[16px]" dangerouslySetInnerHTML={{ __html: item.p }} />
                                                 </div>
                                             </div>
-                                                {item.img && (
+                                                {/* {item.img && (
                                                     <img src={item.img} alt={item.title} width="416" height="300" className="w-full " style={{
                                                         maxHeight: "240px",
                                                         minHeight: "240px",
@@ -290,7 +271,7 @@ export default function Services() {
                                                             onClick={() => handlePlay(absoluteIndex)}
                                                         />
                                                     </VideoWrapper>
-                                                )}
+                                                )} */}
                                             </article>
                                         </div>
                                     );
@@ -329,8 +310,8 @@ export default function Services() {
                             <div className="flex flex-col items-center justify-center">
                                 <SmallSection2
                                     top="That ends today."
-                                    title="Here’s How We Fix It — Fast."
-                                    p="Every tool below is designed to save time, lock in more patients, and make your clinic run like a machine."
+                                    title="…However, you’ve already got 49  things on your to-do list. Hiring. Sales. Payroll. Operations."
+                                    p="Now, <strong>you’re also expected to:</strong>  run ads, fix funnels, write copy, track leads, follow up, update your site... <br/> Come on. <br/><br/> <strong>What are you gonna do? </strong>"
                                 />
                             </div>
                         </div>

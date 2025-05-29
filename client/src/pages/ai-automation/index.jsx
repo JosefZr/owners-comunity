@@ -14,10 +14,10 @@ export default function AiAutomation() {
             <TopBar />
             <Hero />
             <HeroAi />
-            <Section2 />
-            <ReverseSection />
+            {/* <Section2 /> */}
+            {/* <ReverseSection /> */}
             <Services />
-            <AfterServices />
+            {/* <AfterServices /> */}
             <Prices />
             <Questions />
             <LastSection />

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import WideRightShades from "../Shades/WideRightShades";
 import SmallLeftShades from "../Shades/SmallLeftShades";
 import SmallRightShades from "../Shades/SmallRightShades";
+import { CtaButton } from "@/components";
 
 const Texture = styled.h1`
     background-color: white;
@@ -76,71 +77,67 @@ export default function Prices() {
     return (
         <div className="reveal-vertical" style={{ position: "relative", fontFamily: "'Funnel Display', sans-serif" }}>
             <div className="w-full border-b-[1px] border-b-[#2b3340] hidden lg:block">
-                <article className="w-full max-w-[1428px] mx-auto px-[15px] lg:px-[41px] lg:border-x-[1px] lg:border-[#2b3340]" style={{ position: "relative" }}>
+                <article className="w-full max-w-[1428px] items-center mx-auto px-[15px] lg:px-[41px] lg:border-x-[1px] lg:border-[#2b3340]" style={{ position: "relative" }}>
                     <WideLeftShades />
-                    {/* <div className="border-x-[1px] border-[#2b3340]">
-                        <div className="lg:p-[60px] p-2 w-full" style={{position:"relative"}}> 
-                            <Top top="It's Now Or Never..."/>
-                            <TexturedText title="You Only Have 2 Choices"/>
+                    <div className="border-x-[1px] border-[#2b3340] ">
+                        <div className="lg:p-[60px] p-2 w-full" style={{ position: "relative" }}>
+                            <Texture className="capitalize text-center">OK... But What Makes You Different?</Texture>
                         </div>
-                    </div> */}
+                    </div>
+
                     <div className="flex border-t-[1px] border-t-[#2b3340]">
-                        <div className="w-1/2 border-r-[1px] border-r-[#2b3340]">
+                        <div className="w-1/3 border-x-[1px] border-x-[#2b3340]">
                             <div className="lg:p-[10px] mt-16 p-2 w-full " style={{ position: "relative" }}>
                                 <div className="flex justify-center items-center flex-col">
-                                    <Texture className="my-2 capitalize text-center justify-self-end">Why It Matters:</Texture>
+                                    <Texture className="my-2 capitalize text-center justify-self-end">We Guarantee Results.</Texture>
                                 </div>
                             </div>
                         </div>
-                        <div className="w-1/2">
+                        <div className="w-1/3 ">
                             <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
                                 <div className="flex justify-center items-center flex-col">
-                                    <Texture className="mt-2 capitalize text-center max-w-[70%]">Is This You?</Texture>
-                                    <P className="mt-2 text-center px-4 text-pretty">
-                                        If you&apos;re a dentist who wants to:
-                                    </P>
+                                    <Texture className="mt-2 capitalize text-center justify-self-center">We’re Local & Reachable.</Texture>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-1/3 border-x-[1px] border-x-[#2b3340]">
+                            <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
+                                <div className="flex justify-center items-center flex-col">
+                                    <Texture className="mt-2 capitalize text-center justify-self-start">We Specialize.</Texture>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="flex">
-                        <div className="w-1/2 border-r-[1px] border-r-[#2b3340]">
+                        <div className="w-1/3 border-r-[1px] border-r-[#2b3340]">
                             <div className="p-[30px] w-full relative undefined">
                                 <div className="flex justify-center">
                                     <div className="flex flex-col justify-center gap-4">
                                         <div className="flex gap-4 items-center">
-                                            <MdOutlineDone height="1rem" width="1rem" />
-                                            <P >No more missed calls</P>
-                                        </div>
-                                        <div className="flex gap-4 items-center">
-                                            <MdOutlineDone height="1rem" width="1rem" />
-                                            <P >No more calendar chaos</P>
-                                        </div>
-                                        <div className="flex gap-4 items-center">
-                                            <MdOutlineDone height="1rem" width="1rem" />
-                                            <P >More booked patients, less busywork</P>
+                                            <P >If you don’t win, we don’t eat.</P>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="w-1/2">
+                        <div className="w-1/3 border-r-[1px] border-r-[#2b3340]">
+                            <div className="p-[30px] w-full ">
+                                <div className="flex justify-center">
+                                    <div className="flex flex-col justify-center gap-4">
+                                        <div className="flex gap-4 items-center">
+                                            <P1 > We only work in the niches we dominate. That’s how we win.</P1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-1/3 border-r-[1px] border-r-[#2b3340]">
                             <div className="p-[30px] w-full relative undefined">
                                 <div className="flex justify-center">
                                     <div className="flex flex-col justify-center gap-4">
                                         <div className="flex gap-4 items-center">
-                                            <MdOutlineDone height="1rem" width="1rem" />
                                             <P1 >Stop losing patients when you&apos;re not available</P1>
                                         </div>
-                                        <div className="flex gap-4 items-center">
-                                            <MdOutlineDone height="1rem" width="1rem" />
-                                            <P1 >Automate the boring admin crap</P1>
-                                        </div>
-                                        <div className="flex gap-4 items-center">
-                                            <MdOutlineDone height="1rem" width="1rem" />
-                                            <P1 >Run a modern, sharp, professional clinic that <i>actually</i> feels ahead of the curve...</P1>
-                                        </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -150,9 +147,7 @@ export default function Prices() {
                         <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
                             <div className="flex justify-center mt-2">
                                 <Link>
-                                    <Div className="hover:scale-105 duration-300 transition-all">
-                                        <Button className="hover:scale-105 duration-300 transition-all">We should talk</Button>
-                                    </Div>
+                                    <CtaButton content='Let’s Get To Work' />
                                 </Link>
                             </div>
                         </div>
@@ -169,7 +164,7 @@ export default function Prices() {
                                 <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
                                     <div className="flex justify-center items-center">
                                         <div className="flex justify-center items-center flex-col">
-                                            <Texture className="mb-3 capitalize text-center">Why It Matters:</Texture>
+                                            <Texture className="mb-3 capitalize text-center">We Guarantee Results.</Texture>
                                         </div>
                                     </div>
                                 </div>
@@ -177,46 +172,46 @@ export default function Prices() {
                                     <div className="flex justify-center">
                                         <div className="flex flex-col justify-center gap-4 my-4">
                                             <div className="flex gap-4 items-center">
-                                                <MdOutlineDone height="1rem" width="1rem" />
-                                                <P >No more missed calls</P>
+                                                <P >If you don’t win, we don’t eat.</P>
                                             </div>
-                                            <div className="flex gap-4 items-center">
-                                                <MdOutlineDone height="1rem" width="1rem" />
-                                                <P >No more calendar chaos</P>
-                                            </div>
-                                            <div className="flex gap-4 items-center">
-                                                <MdOutlineDone height="1rem" width="1rem" />
-                                                <P >More booked patients, less busywork</P>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="border-b-[1px] border-b-[#2b3340] pb-2 ">
+                            <div className="border-b-[1px] border-b-[#2b3340] pb-2 py-4">
                                 <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
                                     <div className="flex justify-center items-center">
                                         <div className="flex justify-center items-center flex-col">
-                                            <Texture className=" capitalize text-center">Is This You?</Texture>
-                                            <P className="text-center px-4 text-pretty">
-                                                If you&apos;re a dentist who wants to:
-                                            </P>
+                                            <Texture className="mb-3 capitalize text-center">We’re Local & Reachable.</Texture>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="lg:p-[60px] p-2 w-full border-t-[1px] border-t-[#2b3340]" style={{ position: "relative" }}>
-                                    <div className="flex justify-center w-[50%] max-[700px]:w-[70%] max-[450px]:w-[95%] mx-auto">
-                                        <div className="flex flex-col justify-center gap-4 my-5">
+                                    <div className="flex justify-center">
+                                        <div className="flex flex-col justify-center gap-4 my-4">
                                             <div className="flex gap-4 items-center">
-                                                <MdOutlineDone height="1rem" width="1rem" />
-                                                <P1 >Stop losing patients when you&apos;re not available</P1>
+                                                <P > No ghost team. No waiting days for replies.</P>
                                             </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="border-b-[1px] border-b-[#2b3340] pb-2 py-4">
+                                <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
+                                    <div className="flex justify-center items-center">
+                                        <div className="flex justify-center items-center flex-col">
+                                            <Texture className="mb-3 capitalize text-center">We Specialize.</Texture>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="lg:p-[60px] p-2 w-full border-t-[1px] border-t-[#2b3340]" style={{ position: "relative" }}>
+                                    <div className="flex justify-center">
+                                        <div className="flex flex-col justify-center gap-4 my-4">
                                             <div className="flex gap-4 items-center">
-                                                <MdOutlineDone height="1rem" width="1rem" />
-                                                <P1 >Automate the boring admin crap</P1>
-                                            </div>
-                                            <div className="flex gap-4 items-center">
-                                                <MdOutlineDone height="1rem" width="1rem" />
-                                                <P1 >Run a modern, sharp, professional clinic that *actually* feels ahead of the curve...</P1>
+                                                <P > We only work in the niches we dominate. That’s how we win.</P>
                                             </div>
 
                                         </div>
@@ -227,9 +222,7 @@ export default function Prices() {
                                 <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
                                     <div className="flex justify-center">
                                         <Link>
-                                            <Div className="hover:scale-105 duration-300 transition-all">
-                                                <Button className="hover:scale-105 duration-300 transition-all">We should talk</Button>
-                                            </Div>
+                                            <CtaButton content='Let’s Get To Work' />
                                         </Link>
                                     </div>
                                 </div>
