@@ -1,0 +1,36 @@
+{
+    auto_https off
+}
+
+www.buildydn.com {
+    redir https://buildydn.com{uri}
+}
+
+buildydn.com {
+    tls /etc/caddy/certs/fullchain.pem /etc/caddy/certs/privkey.pem
+
+    root * /srv
+    file_server
+
+    # Reverse proxy API calls (Standard HTTP requests)
+    reverse_proxy /api/* server-i1:3000
+
+
+    reverse_proxy /uploads/* server-i1:3000 
+    # Reverse proxy WebSockets (Socket.io)
+    @ws {
+        path /socket.io*
+        header Connection *Upgrade*
+        header Upgrade websocket
+    }
+    
+    reverse_proxy @ws server-i1:3000 {
+        transport http {
+            versions 1.1
+        }
+    }
+
+    # Enable automatic HTTPS for local IPs (uncomment if needed)
+    # tls internal
+}
+

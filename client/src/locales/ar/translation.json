@@ -1,0 +1,213 @@
+{
+    "identifing": "حدد من انت",
+    "login": "تسجيل الدخول",
+    "dentist":{
+      "hero":{
+        "title":"FOCUS MORE. STRESS LESS.",
+        "description":"كطبيب أسنان، وقتك ثمين وإدارة عيادتك قد تكون مهمة و تأخذ وقتك و جهدك ."
+    },
+    "services":{
+      "p":"ستستفيد من شبكة تجمع بين أطباء الأسنان، والمختبرات، وموردي المواد الطبية، مما يسهل التعاون وتبادل الخبرات في هذا المجال."
+    ,
+    "content":{
+      "private":{
+        "title": "مجتمع الأسنان الخاص" ,
+        "description":"قارن الأسعار واطلب المواد. مساحة آمنة للتواصل والدعم."
+      },
+      "plan":{
+        "title": " خطط كالمحترفين."
+
+        ,
+        "description": ".جدولة المهام والمواعيد بسهولة"
+      },
+      "finance":{
+        "title": "إدارة الشؤون المالية",
+        "description": "تذكيرات تلقائية بالمدفوعات. راقب تكاليف المواد والإيرادات."
+      },
+      "opportunity":{
+        "title": "فرصة لأفضل الأطباء الأسنان ",
+        "description":".ابنِ سمعتك من خلال دورات متقدمة ابنِ سمعتك من خلال دورات متقدمة. استثمر معرفتك من خلال ورش العمل المدفوعة. شارك خبرتك عبر محاضرات إلكترونية."
+      },
+      "courses":{
+        "title":"دورات متقدمة في طب الأسنان" ,
+        "description":"ابقَ على اطلاع بأحدث الاتجاهات والأخبار. دورات متخصصة مع ترجمة إلى الفرنسية والعربية."
+      },
+      "growth":{
+        "title": "دعم نمو الأعمال.",
+        "description":"أسرار لا حصر لها لكسب الثروة. إتقان عملك في مجال طب الأسنان. يمكنك الحصول على مساعدة فردية.احصل على التسويق والإعلان والمواقع الإلكترونية،... حصرياً على YDN."
+      }
+    }
+    },
+    "plans":{
+      "title":" نقوم بالتحديث دائما",
+      "title2":" ",
+      "title3":"فرص العمل",
+      "title4":"تواصل مع أطباء الأسنان واكتشف فرص مهنية جديدة من خلال خطة Zirconium.",
+      "desc": "مجتمع أطباء الأسنان الدولي (قريبًا)",
+      "desc2":"شارك الحالات وتعاون مع أطباء الأسنان من جميع أنحاء العالم.",
+      "table":"هذه المنصة توفر لك الوقت، مما يسمح لك بإدارة عيادتك من هاتفك  أو جهاز الكمبيوتر المحمول في أي وقت، ومن أي مكان.",
+      "free":{
+        "title":"عروض مجانية",
+        "checks":"دورات طب الأسنان المتقدمة. إدارة المهام الأساسية. أخبار طب الأسنان. ",
+        "cta":"انضم مجانًا"
+      },
+      "paid":{
+        "title":"عالم الزيركونيوم",
+        "checks":" التواصل مع أطباء الأسنان.الوصول إلى المبيعات. الخصوصية والأمان. خطط بإحترافية. إدارة الأموال. توفير الوقت. ميزة مشوقة.  ",
+        "cta":"إلغاء في أي وقت، بدون مخاطرة.",
+        "cta2":"14.5 يورو / شهر دائمًا",
+        "cta3":"ثبت سعرك الآن قبل أن يرتفع"
+      }
+    },
+    "increasing":{
+      "title": " السعر يرتفع قريباً",
+      "from":"احصل على",
+      "month":"شهر",
+      "to":" قبل أن يرتفع إلى",
+      "dentist":"استمتع بتجربة مجانية لمدة 6 أيام لاستكشاف جميع الميزات.انضم إلى أطباء الأسنان الذين يبنون شبكاتهم بالفعل! ",
+      "lock":"احجز سعرك الآن قبل الزيادة!"
+    }
+  },
+    "store":{
+    "hero":{
+      "title":"INCREASE VISIBILITY. GAIN TRUST. ",
+      "description":"نمو أكبر. عملاء أكثر ."
+    },
+    "services":{
+      "p":"الوصول المباشر إلى أطباء الأسنان هو المفتاح لتوسيع نشاطك.",
+      "content":{
+        "access":{
+          "title": "الوصول إلى شبكة من أطباء الأسنان",
+          "description": "قم بتوسيع قاعدة عملائك بأن تكون مرئيًا للأطباء الذين يحتاجون إلى مستلزمات ومنتجات عالية الجودة"
+        },
+        "simplified":{
+          "title": "عملية طلب مبسطة",
+          "description": " يمكن لأطباء الأسنان تصفح مخزونك بسهولة، الاتصال بك، وإجراء الطلبات."
+        },
+        "competitive":{
+          "title": "الأسعار التنافسية",
+          "description": "تميز من خلال تقديم أسعار تنافسية والسماح لأطباء الأسنان بمقارنة منتجاتك."
+        },
+        "trust":{
+          "title": "بناء الثقة",
+          "description":"عزز العلاقات مع أطباء الأسنان الذين سيعودون للحصول على منتجات موثوقة."
+        }
+      }
+    },
+    "plusServices":{
+      "plan":{
+        "title": "خطط بإحترافية",
+        "description": "تتبع المهام اليومية والتسليمات مع تذكيرات للبقاء منظمًا."
+      },
+      "financial":{
+        "title": "إدارة مالية",
+        "description": "تتبع النفقات، إدارة الإيرادات، وضبط تذكيرات الدفع بسهولة."
+      },
+      "growth":{
+        "title": "دعم نمو الأعمال",
+        "description": "احصل على مساعدة الخبراء لتنمية وجودك عبر الإنترنت مع عروض خاصة."
+      },
+      "setup":{
+        "title": "إعداد سريع",
+        "description": "ابدأ البيع خلال أقل من 24 ساعة."
+      },
+      "notifications":{
+        "title": "إشعارات فورية",
+        "description": "تلقي إشعارات فورية عند تقديم الطلبات أو الاستفسارات من قبل أطباء الأسنان لمساعدتك على الرد بسرعة."
+      }
+    },
+    "plans":{
+      "title":"Regular Updates",
+      "title2":"",
+      "desc": "Connect with dentists and explore career opportunities with our Zirconium plan.",
+      "desc2":"سيكون متجرك مرئيًا لمئات الأطباء والعيادات، مما يسهل عليهم العثور على منتجاتك ومقارنتها وطلبها مباشرة",
+      "table":"توفر لك هذه المنصة الوقت، مما يسمح لك بإدارة عملك السني من هاتفك  أو الكمبيوتر المحمول  في أي وقت ومن أي مكان.",
+      "free":{
+        "title":"Exclusive Offer for Dental Stores",
+        "title2":"40 Days Free Access: Get full access to the platform for free.",
+        "after":"After 40 Days: Only €14.5/month.",
+        "checks":"Reach new clients instantly. Manage orders and supplies efficiently. Access exclusive discounts on materials. Boost your visibility in the dental community.",
+        "cta":"Join for free"
+      }
+    },
+    "increasing":{
+      "title": "Price increasing Soon ",
+      "from":"Get",
+      "to": "before it goes up to",
+      "month":"month ",
+      "dentist":"Enjoy a 6-day free trial to discover all features.Join dentists building their networks!",
+      "lock":"Secure your price now before the increase!"
+    }
+  },
+  "lab":{
+    "hero":{
+      "title":"INCREASE VISIBILITY. GAIN TRUST.",
+      "description":"استفد من التواصل المباشر مع شبكة من أطباء الأسنان الذين يبحثون بنشاط عن مختبرات ذات جودة عالية."
+    },
+    "services":{
+      "p":"الكفاءة والجودة أساسية لنجاح مختبرك. تواصل مباشرة مع أطباء الأسنان الذين يحتاجون إلى أطقم الأسنان، التيجان، الجسور والمزيد",
+      "content":{
+        "access":{
+          "title": "الوصول المباشر إلى أطباء الأسنان",
+          "description": "واصل مع أطباء الأسنان الذين يحتاجون إلى خدماتك وابنِ علاقات طويلة الأمد."
+        },
+        "simplified":{
+          "title": "طلب أكثر، بسرعة أكبر",
+          "description": "استلم طلبات واضحة ومفصلة لتحسين الإنتاجية وتقليل العودة للأسئلة. +: اشترِ كل ما تحتاجه من متجر سني."
+        },
+        "competitive":{
+          "title": "التواصل الفعال ",
+          "description": " تعاون مباشرة مع أطباء الأسنان عبر المنصة بدون الحاجة للمكالمات أو الزيارات."
+        },
+        "trust":{
+          "title": "  تعزيز الثقة",
+          "description":"زِد من رؤيتك وثقة أطباء الأسنان بك عن طريق تواجدك على منصة يعتمدون عليها للبحث عن مختبرات موثوقة."
+        }
+      }
+    },
+    "plusServices":{
+      "plan":{
+        "title": "خطط بإحترافية",
+        "description": "تتبع المهام اليومية والتسليمات مع تذكيرات للبقاء منظمًا."
+      },
+      "financial":{
+        "title": "إدارة مالية",
+        "description": "تتبع النفقات، إدارة الإيرادات، وضبط تذكيرات الدفع بسهولة."
+      },
+      "growth":{
+        "title": "دعم نمو الأعمال",
+        "description": "احصل على مساعدة الخبراء لتنمية وجودك عبر الإنترنت مع عروض خاصة."
+      },
+      "setup":{
+        "title": "إعداد سريع",
+        "description": "ابدأ البيع خلال أقل من 24 ساعة."
+      },
+      "notifications":{
+        "title": "إشعارات فورية",
+        "description": "تلقي إشعارات فورية عند تقديم الطلبات أو الاستفسارات من قبل أطباء الأسنان لمساعدتك على الرد بسرعة."
+      }
+    },
+    "plans":{
+      "title":"Regular Updates",
+      "title2":"",
+      "desc": "Your lab services will be visible to hundreds of active dentists and clinics, making it easy for them to find, compare, and contact you directly.",
+      "desc2":"سيكون متجرك مرئيًا لمئات الأطباء والعيادات، مما يسهل عليهم العثور على منتجاتك ومقارنتها وطلبها مباشرة",
+      "table":"توفر لك هذه المنصة الوقت، مما يسمح لك بإدارة عملك السني من هاتفك أو الكمبيوتر المحمول في أي وقت ومن أي مكان.",
+      "free":{
+        "title":"Exclusive Offer for Dental Stores",
+        "title2":"40 Days Free Access: Get full access to the platform for free.",
+        "after":"After 40 Days: Only €14.5/month.",
+        "checks":"Reach new clients instantly. Manage orders and supplies efficiently. Access exclusive discounts on materials. Boost your visibility in the dental community.",
+        "cta":"Join for free"
+      }
+    },
+    "increasing":{
+      "title": "Price increasing Soon ",
+      "from":"Get",
+      "to": "before it goes up to",
+      "month":"month ",
+      "dentist":"Enjoy a 6-day free trial to discover all features.Join dentists building their networks!",
+      "lock":"Secure your price now before the increase!"
+    }
+  }
+}

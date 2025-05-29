@@ -1,0 +1,299 @@
+{
+  "identifing": " Identify Who You Are ",
+  "login": "LOG IN",
+  "cta":" Build_Your_Dentlal_Network",
+  "faq":{
+    "one":{
+      "question":"What is Your Dental Network (YDN) ?",
+      "responde":"YDN is an all-in-one platform for dentists, dental labs, and suppliers. It helps streamline clinic management, networking, education, and business growth."
+    },
+    "two":{
+      "question":"Who can use YDN ?",
+      "responde":"Dentists || Dental Lab Technicians || Dental Suppliers || Students looking for advanced education."
+    },
+    "six":{
+      "question":"How does YDN help with business growth ?",
+      "responde":"YDN provides specialized tools like: Website creation & branding, Social media & digital ads And Marketing strategies to attract high-paying patients"    
+    },
+    "nm":{
+      "question":"Are there any courses inside YDN?",
+      "responde":"Yes! We offers exclusive courses to help you grow. Advanced Dental Courses – Learn specialized topics like Implant Dentistry, with subtitles for easy learning. Business Mastery for Dentists – Dentistry Mastery Code, a step-by-step blueprint to double your profits and scale your clinic. Vital Life & Productivity Lessons – Master time management, efficiency, and peak performance to maximize success. Learn, implement, and transform your career inside YDN!"
+    },
+    "phiftin":{
+      "question":"What is the “DENTISTRY MASTERY CODE” course?",
+      "responde":"A proven blueprint for building a high-profit dental business, step by step."
+    },
+    "nine":{
+      "question":"Is my data secure on YDN ?",
+      "responde":"Yes, YDN ensures full privacy and security for its users. Your personal and financial information is protected, and patient communications are encrypted."    
+    },
+    "sixtin":{
+      "question":"What is the “Top Dentist” feature?",
+      "responde":"Monetize your knowledge by hosting webinars & courses for a wider audience."
+    },
+    "seventin":{
+      "question":"I don’t have a lot of time. Can I still join?",
+      "responde":"Yes! YDN is designed to save you time. You only need 30 minutes a day to learn & apply what we teach."
+    },
+    "eleven":{
+      "question":"Can I cancel my membership ?",
+      "responde":"Yes, you can cancel your membership anytime through your account settings."    
+    },
+    "eightin":{
+      "question":"I live in X country. Is that a problem?",
+      "responde":"Not at all! Your location only changes the currency of your earnings."
+    },
+    "twelve":{
+      "question":"How does YDN support dental students ?",
+      "responde":"Dental students can access exclusive courses, practical training, and job opportunities to prepare for their careers."    
+    },
+    "twanti":{
+      "question":"How do I sign up?",
+      "responde":"Click the red button below and choose your plan, Registration takes minutes!"
+    }  
+  },
+  "plans":{
+    "starter":{
+      "title":"Starter Plan ",
+      "desc":"Access to community discussions with dental professionals.Daily dental news updates. Checklist for managing appointments and tasks."
+    },
+    "pro":{
+      "title":"Professional Plan",
+      "desc":"Advanced dental courses (eg, Implant Dentistry with French subtitles). Income and expense management tools. Access to a private dental store for materials."
+    },
+    "elite":{
+      "title":"Elite Plan",
+      "desc":"All features from Professional. Exclusive webinars with top dentists. Personalized business growth support (marketing, website setup).Priority access to job opportunities and networking events."
+    }
+  },
+  "unlock":{
+    "titles":"24/7 support and expert guidance. Specialized tools to streamline your dental business. Courses on advanced techniques, patient. communication, and financial management. A private dental community for global connections. Access to dental webinars, workshops, and career opportunities. Live sessions with top dental experts ( Coming Soon ).",
+    "desc":"YDN is your all-in-one platform to manage, grow, and master your dental career. Take control of your time, reduce stress, and elevate your professional success."
+  },
+  "dentist":{
+    "hero":{
+      "title":"MORE PROFIT. LESS STRESS.",
+      "description":"Your time is valuable. Your clinic should work for you. Not the other way around."
+    },
+    "services":{
+      "p":"A STEP-BY-STEP PATH",
+      "subText":"",
+      "content":{
+        "manage":{
+          "title": "MANAGE YOUR CLINIC ",
+          "description": "Staff management system.Patient management system.Track clinic performance."
+        },
+        "cheat": {
+            "title": "DENTAL $ CHEAT CODES",
+            "description": "Master internal & external marketing. Learn the **EXACT skills** to **scale your wealth**. Attract **high-value patients**."
+          },
+          "network": {
+            "title": "PRIVATE NETWORK",
+            "description": "**Discuss clinical cases** & get real-time advice. Learn from peers who are already winning. Network with like-minded dentists."
+          },
+        "private":{
+          "title": "Private Dental Community",
+          "description": "Secure, private space for dental professionals. Connect for advice, collaboration, or support. Network with Top Dentists."
+        },
+        "plan":{
+          "title": "Productivity & Scheduling",
+          "description": "Stay disciplined with advanced checklists. Manage dental materials and track supplies."
+        },
+        "finance":{
+          "title": "Financial Management",
+          "description": "Track costs, earnings. Automate payments reminders. "
+        },
+        "opportunity":{
+          "title": "Job Opportunities",
+          "description":"**For Those Seeking Opportunities:**, post your listing today and get hired!.**For Clinic Owners:**, find and hire the right team to scale your practice now!"
+        },
+        "courses":{
+          "title":"Advanced Dental Courses",
+          "description":"Build credibility . Master high-level skills (including Implant Dentistry)."
+        },
+        "growth":{
+          "title": "Business Growth Support",
+          "description":"( AI live chat | AI caller ) Automation. Website creation. Market your practice at **YDN-exclusive prices**."
+        }
+      }
+    },
+    "plans":{
+      "title":"Regular Updates",
+      "title2":"",
+      "title3":"Mystery Feature ",
+      "title4":"Job Opportunities",
+      "desc": "Connect with dentists and explore career opportunities with our zirconium plan.",
+      "desc2":"Share cases and collaborate with dentists worldwide.",
+      "table":"This platform saves you time, letting you manage your dental practice from your phone  or laptop  anytime, anywhere.",
+      "free":{
+        "title":"Free Access",
+        "head":"Stay an amateur",
+        "checks":"Basic daily checklist. Track earnings. Free motivational videos.Stay stagnant.Stay unfulfilled.",
+        "cta":"Join for free"
+      },
+      "paid":{
+        "title":"The Zirconium Plan",
+        "checks":"Simple, step-by-step tutorials. Proven methods to win. No prior business experience needed. Just action. A custom-built platform.",
+        "cta":"Cancel anytime, risk free.",
+        "cta2":"$59.99/month forever",
+        "cta3":"Lock in your price before it increases."
+      }
+    },
+    "increasing":{
+      "title": "Price increasing Soon ",
+      "from":"Join with",
+      "to": "before it goes up to",
+      "month":"month ",
+      "dentist":"Enjoy a 2-day free trial to discover all features. Our Dentists are winning!",
+      "lock":"Lock in your price now before the increase!"
+    }
+},
+"store":{
+    "hero":{
+      "title":"INCREASE VISIBILITY. GAIN TRUST. ",
+      "description":"More Growth, More Clients. Guaranteed."
+    },
+    "services":{
+      "p":"As a dental store, reaching dentists directly is the key to grow your business.",
+      "subText":"",
+      "content":{
+        "access":{
+          "title": "Access a Network of Active Dentists",
+          "description": "Expand your customer base by being visible to dentists in need of quality supplies and materials."
+        },
+        "simplified":{
+          "title": "Simplified Ordering",
+          "description": " Dentists can easily browse your inventory, contact you, and place orders. "
+        },
+        "competitive":{
+          "title": "Competitive Pricing",
+          "description": "Stand out with competitive prices and let dentists compare your products. Join the competition to attract new customers and boost your sales."
+        },
+        "trust":{
+          "title": "Build Trust",
+          "description":"Strengthen relationships with dentists who will return for reliable products and services."
+        }
+      }
+    },
+    "plusServices":{
+      "top":{
+        "title": "Top Dentist Opportunity",
+        "description": "Monetize your knowledge with paid workshops and mentoring."
+      },
+      "plan":{
+        "title": "Plan Like a Pro",
+        "description": "Track daily tasks and deliveries with reminders to stay organized."
+      },
+      "financial":{
+        "title": "Manage Your Finances",
+        "description": "Track expenses, manage income, and set payment reminders effortlessly."
+      },
+      "growth":{
+        "title": "Business Growth Support",
+        "description": "Get expert help to grow your online presence with special offers."
+      },
+      "setup":{
+        "title": "Quick Setup",
+        "description": "Start selling in less than 24 hours."
+      },
+      "notifications":{
+        "title": "Real-Time Notifications",
+        "description": "Get instant notifications when dentists place orders or inquire about your services, helping"
+      }
+    },
+    "plans":{
+      "title":"Regular Updates",
+      "title2":"",
+      "desc": "",
+      "desc2":"Your store will be visible to hundreds of active dentists and clinics, making it easy for them to find, compare, and order your products directly.",
+      "table":"This platform saves you time, letting you manage your dental practice from your phone  or laptop  anytime, anywhere.",
+      "free":{
+        "title":"Exclusive Offer for Dental Stores",
+        "title2":"2 Days Free Access: Get full access to the platform for free.",
+        "after":"After 2 Days: Only €19.9/month.",
+        "checks":"Reach new clients instantly. Manage orders and supplies efficiently. Access exclusive discounts on materials. Boost your visibility in the dental community.",
+        "cta":"Join for free"
+      }
+    },
+    "increasing":{
+      "title": "Join the Competition",
+      "from":"Get",
+      "to": "before it goes up to",
+      "month":"month ",
+      "dentist":"Enjoy a 2-day free trial to discover all features.Join dentists building their networks!",
+      "lock":"Secure your price now before the increase!"
+    }
+  },
+  "lab":{
+    "hero":{
+      "title":"INCREASE VISIBILITY. GAIN TRUST.",
+      "description":"More Growth. More Clients. Guaranteed."
+    },
+    "services":{
+      "p":"Connect directly with dentists actively searching for high-quality dental lab services.",
+      "subText":"Efficiency and quality are essential to your lab's success. Get connected directly with dentists who need prosthetics, crowns, bridges, and more..",
+      "content":{
+        "access":{
+          "title": "Direct Access to Dentists",
+          "description": " Connect with dentists who need your services and build lasting relationships."
+        },
+        "simplified":{
+          "title": "More Orders, Faster",
+          "description": "Receive clear, detailed orders to boost productivity and reduce back-and-forth. Buy whatever you need from a dental store."
+        },
+        "competitive":{
+          "title": "Efficient Communication ",
+          "description": "Collaborate with dentists directly on the platform without the hassle of phone calls, personal visits or emails."
+        },
+        "trust":{
+          "title": " Visibility and Trust",
+          "description":"Increase your visibility and earn trust by being on a platform that dentists rely on for finding quality labs."
+        }
+      }
+    },
+    "plusServices":{
+      "plan":{
+        "title": "Plan Like a Pro",
+        "description": "Track daily tasks and deliveries with reminders to stay organized."
+      },
+      "financial":{
+        "title": "Financial Management",
+        "description": "Track expenses, manage income, and set payment reminders effortlessly."
+      },
+      "growth":{
+        "title": "Business Growth Support",
+        "description": "Get expert help to grow your online presence with special offers."
+      },
+      "setup":{
+        "title": "Quick Setup",
+        "description": "Start selling in less than 24 hours."
+      },
+      "notifications":{
+        "title": "Real-Time Notifications",
+        "description": "Get instant notifications when dentists place orders or inquire about your services, helping"
+      }
+    },
+    "plans":{
+      "title":"Regular Updates",
+      "title2":"",
+      "desc": "",
+      "desc2":"Your lab services will be visible to hundreds of active dentists and clinics, making it easy for them to find, compare, and contact you directly.",
+      "table":"This platform saves you time, letting you manage your dental practice from your phone  or laptop  anytime, anywhere.",
+      "free":{
+        "title":"Exclusive Offer for Dental Labs",
+        "title2":"2 Days Free Access: Get full access to the platform for free.",
+        "after":"After 2 Days: Only €19.9/month.",
+        "checks":"Reach new clients instantly. Manage orders and supplies efficiently. Access exclusive discounts on materials. Boost your visibility in the dental community.",
+        "cta":"Join for free"
+      }
+    },
+    "increasing":{
+      "title": "Price increasing Soon ",
+      "from":"Get",
+      "to": "before it goes up to",
+      "month":"month ",
+      "dentist":"Enjoy a 6-day free trial to discover all features.Join dentists building their networks!",
+      "lock":"Secure your price now before the increase!"
+    }
+  }
+}

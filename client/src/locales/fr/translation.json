@@ -1,0 +1,290 @@
+{
+    "identifing": "Identifiez qui vous étes ",
+    "login": "se connecter",
+    "cta":"Construisez_Votre_Réseau_Dentaire",  
+    "faq":{
+      "one":{
+        "question":"Qu'est-ce que Your Dental Network (YDN) ?",
+        "responde":"YDN est une plateforme tout-en-un conçue pour les professionnels dentaires, reliant dentistes, laboratoires dentaires et fournisseurs. Elle offre des outils pour gérer votre pratique, accéder aux actualités dentaires, vendre des cours en ligne et développer votre activité grâce au marketing et au réseautage."
+      },
+      "two":{
+        "question":"Qui peut utiliser YDN ?",
+        "responde":"YDN est ouvert aux dentistes, techniciens de laboratoires dentaires, fournisseurs dentaires et étudiants en quête de formation avancée."
+      },
+      "three":{
+        "question":"Quelles fonctionnalités YDN offre-t-il aux dentistes ?",
+        "responde":"Gestion des rendez-vous et des tâches. Outils de suivi financier. Communauté en ligne pour le réseautage. Cours et webinaires dentaires avancés. Soutien pour la croissance d’entreprise (marketing, création de sites web). Comment les laboratoires dentaires et les fournisseurs"
+      },
+      "four":{
+        "question":"peuvent-ils bénéficier de YDN ?",
+        "responde":"Connexion avec des dentistes à la recherche de fournitures ou de prothèses. Mise en avant et promotion des produits sur la boutique en ligne. Réception directe des demandes des professionnels dentaires."    
+      },
+      "five":{
+        "question":"Qu'est-ce que la fonctionnalité “Top Dentist” ?",
+        "responde":"La fonctionnalité “Top Dentist” permet aux dentistes expérimentés de monétiser leurs connaissances en organisant des webinaires et cours en ligne, atteignant ainsi un public plus large."    
+      },
+      "six":{
+        "question":"Comment YDN aide-t-il à la croissance d’entreprise ?",
+        "responde":"YDN propose des outils et services spécialisés comme la création de sites web, la gestion des réseaux sociaux et la publicité numérique pour attirer plus de patients et augmenter vos revenus. VOUS APPRENDREZ AUSSI LES COMPÉTENCES COMMERCIALES ESSENTIELLES. "    
+      },
+      "seven":{
+        "question":"Y a-t-il des cours disponibles sur YDN ?",
+        "responde":"Oui, YDN propose des cours sur divers sujets dentaires, notamment l'implantologie, avec des sous-titres en français. La plateforme offre également des ASTUCES COMMERCIALES ULTIMES."    
+      },
+      "eight":{
+        "question":"Combien coûte l'inscription à YDN ?",
+        "responde":"YDN propose plusieurs plans d'adhésion. Le plan de base commence à 14,5 €/mois, avec des options plus avancées selon vos besoins."    
+      },
+      "nine":{
+        "question":"Mes données sont-elles sécurisées sur YDN ?",
+        "responde":"Oui, YDN garantit la confidentialité et la sécurité des utilisateurs. Vos informations personnelles et financières sont protégées, et les communications avec les patients sont cryptées."    
+      },
+      "ten":{
+        "question":"Comment puis-je m'inscrire à YDN ?",
+        "responde":"Visitez notre site web à [https://www.buildydn.com/#/sign-up] et choisissez le plan d'adhésion qui vous convient. L'inscription ne prend que quelques minutes. Vous pouvez aussi nous contacter directement via Telegram et payer en espèces ou par virement bancaire"    
+      },
+      "eleven":{
+        "question":"Comment puis-je m'inscrire à YDN ?",
+        "responde":"Oui, vous pouvez annuler votre adhésion à tout moment dans les paramètres de votre compte."    
+      },
+      "twelve":{
+        "question":"Comment YDN soutient-il les étudiants en dentaire ?",
+        "responde":"Les étudiants peuvent accéder à des cours exclusifs, à des formations pratiques et à des opportunités d’emploi pour se préparer à leur carrière."    
+      },
+      "thirtin":{
+        "question":"Je vis dans un autre pays. Est-ce un problème ?",
+        "responde":"Pas du tout. Chez YDN, nous vous aidons à établir des relations précieuses, à recevoir du soutien d'autres dentistes et à apprendre comment gagner de l'argent. Votre localisation n'affecte que la devise de vos revenus."    
+      },
+      "fourtin":{
+        "question":"Je manque de temps. Puis-je quand même m'inscrire ?",
+        "responde":"Oui ! YDN est conçu pour vous faire gagner du temps en simplifiant les tâches, en vous connectant avec d'autres et en proposant des outils efficaces pour gérer votre pratique."    
+      }
+    },
+    "plans":{
+      "starter":{
+        "title":"Plan Starter",
+        "desc":"Accès aux discussions communautaires avec des professionnels dentaires. Mises à jour quotidiennes sur les actualités dentaires.Liste de contrôle pour gérer les rendez-vous et les tâches."
+      },
+      "pro":{
+        "title":"Plan Professionnel.",
+        "desc":"Toutes les fonctionnalités du Plan Starter. Cours dentaires avancés (ex. : Implantologie avec sous-titres en français). Outils de gestion des revenus et dépenses. Accès à une boutique privée de matériel dentaire."
+      },
+      "elite":{
+        "title":"Plan Élite",
+        "desc":"Toutes les fonctionnalités du Plan Professionnel.Webinaires exclusifs avec des dentistes de renom.Soutien personnalisé pour la croissance d'entreprise (marketing, création de site web).Accès prioritaire aux offres d'emploi et événements de réseautage."
+      }
+    },
+  "unlock":{
+      "titles":"Assistance 24/7 et conseils d'experts. Outils spécialisés pour optimiser votre activité dentaire.Cours sur les techniques avancées, la communication avec les patients et la gestion financière.Une communauté privée pour des connexions dentaires mondiales.Accès à des webinaires, ateliers et opportunités de carrière dentaires.Sessions en direct avec des experts dentaires de renom (Bientôt disponible).",
+      "desc":"YDN est votre plateforme tout-en-un pour gérer, développer et maîtriser votre carrière dentaire. Prenez le contrôle de votre temps, réduisez le stress et augmentez votre succès professionnel."
+    },
+    "dentist":{
+  "hero":{
+      "title":"FOCUS MORE. STRESS LESS.",
+      "description":"En tant que dentiste, votre temps est précieux, et la gestion de votre clinique peut être exigeante."
+    },
+    "services":{
+      "p":"Connectez vous avec les dentistes, prothésistes, et les comptoires dentaires.",
+      "content":{
+        "private":{
+          "title": "Communauté Dentaire Privée",
+          "description": "Confidentialité totale et sécurisée pour les professionnels. Connectez-vous avec d'autres dentistes pour conseils et aide. Comparez et commandez des matériaux facilement."
+        },
+        "plan":{
+          "title": "Planification Pro",
+          "description": "Organisez vos tâches et rendez-vous. Gérez vos fournitures et achats dentaires."
+        },
+        "finance":{
+          "title": "Gestion des Finances",
+          "description": "Suivi des dépenses et revenus. Rappels automatiques pour les paiements ."
+        },
+        "opportunity":{
+          "title": "Opportunités pour Dentistes Experts",
+          "description":"Offrez des conférences en ligne.Transformez votre expertise en revenus  avec des formations et du mentorat payants."
+        },
+        "courses":{
+          "title":"Formations Dentaires Avancées",
+          "description":"Webinaires et cours spécialisés avec sous-titres. Restez à jour avec les dernières tendances et actualités du secteur dentaire."
+        },
+        "growth":{
+          "title": "Support Business",
+          "description":"Des stratégies éprouvées pour réussir financièrement.Optimisez la gestion de votre cabinet dentaire.•Coaching Privé 1 on 1. Profitez de solutions exclusives en marketing, publicité, création de sites web, et bien plus, avec YDN."
+        }
+    } 
+    },
+    "plans":{
+      "title":"Mises à Jour Régulières",
+      "title2":"",
+      "title3":"Opportunités d’Emploi",
+      "title4":"",
+      "desc": "Connectez-vous avec d'autres dentistes et explorez de nouvelles opportunités de carrière avec notre plan Zirconium.",
+      "desc2":"Communauté Dentaire Internationale (Bientôt Disponible)",
+      "table":"Cette plateforme vous fait gagner du temps, vous permettant de gérer votre pratique dentaire depuis votre téléphone ou votre ordinateur portable à tout moment, n'importe où.",
+      
+      "free":{
+        "title":"Mode Gratuit",
+        "head":"rester un amateur",
+        "checks":"Planifiez Tout : Gérez des tâches de base. Cours Avancés en Dentisterie .Actualités Dentaires. Support à la Croissance de l'Entreprise : Tarifs spéciaux pour le mode Zirconium.",
+        "cta":"Rejoignez gratuitement"
+      },
+      "paid":{
+        "title":"PLAN Zirconium ",
+        "checks":"Connectez-vous avec d'autres dentistes. Améliorez votre professionnalisme. Listes des tâches avancées. Confidentialité & sécurité. Fonctionnalité mystère.Gestion financière. Accès aux ventes. Gagnez du temps.",
+        "cta":"Annulez à tout moment, sans risque.",
+        "cta2":"14,5 € /mois pour toujours.",
+        "cta3":"  Verrouillez votre prix avant qu'il n'augmente."
+      }
+    },
+    "increasing":{
+    "title": "Prix en Augmentation Bientôt",
+    "from":"Profitez de",
+    "month":"mois",
+    "to":"avant que cela passe à",
+    "dentist":"Bénéficiez d'un essai gratuit de 6 jours pour découvrir toutes les fonctionnalités. Rejoignez les dentistes qui construisent déjà leur réseau !",
+    "lock":"Sécurisez votre prix maintenant avant l'augmentation ! "
+  }
+},
+"store":{
+    "hero":{
+      "title":"AUGMENTER LA VISIBILITÉ. GAGNER LA CONFIANCE. ",
+      "description":"Plus de croissance. Plus de clients. Garanties."
+    },
+    "services":{
+      "p":"En vous connectant directement à un réseau de dentistes qui recherchent activement des fournitures dentaires de qualité.",
+      "content":{
+        "access":{
+          "title": "Accès direct aux dentistes",
+          "description": "Élargissez votre clientèle en étant visible pour les dentistes à la recherche de fournitures et de matériaux de qualité."
+        },
+        "simplified":{
+          "title": "Commande simplifiée",
+          "description": "Les dentistes peuvent facilement parcourir votre inventaire, vous contacter et passer commande. "
+        },
+        "competitive":{
+          "title": "Prix compétitifs",
+          "description": " Démarquez-vous avec des prix compétitifs et permettez aux dentistes de comparer vos produits."
+        },
+        "trust":{
+          "title": "Renforcez la confiance",
+          "description":" Développez des relations de confiance avec des dentistes qui reviendront pour des produits fiables."
+        }
+      }
+    },
+    "plusServices":{
+      "plan":{
+        "title": "Planifiez comme un pro",
+        "description": "Suivez les tâches quotidiennes et les livraisons avec des rappels pour rester organisé."
+      },
+      "financial":{
+        "title": "Gestion financière",
+        "description": "Suivez les dépenses, gérez vos revenus et définissez des rappels de paiement facilement."
+      },
+      "growth":{
+        "title": "Soutien à la croissance de l’entreprise",
+        "description": "Obtenez de l'aide d'experts pour développer votre présence en ligne avec des offres spéciales."
+      },
+      "setup":{
+        "title": "Mise en place rapide",
+        "description": "Commencez à vendre en moins de 24 heures."
+      },
+      "notifications":{
+        "title": "Notifications en temps réel ",
+        "description": " Recevez des notifications instantanées lorsque des dentistes passent commande ou demandent des informations, vous aidant à répondre plus rapidement."
+      }
+    },
+    "plans":{
+      "title":"Mises à Jour Régulières",
+      "title2":"Fonctionnalité Mystère",
+      "desc": "Cette plateforme vous fait gagner du temps",
+      "desc2":"vous permettant de gérer votre entreprise dentaire depuis votre téléphone 📱 ou votre ordinateur portable 💻, à tout moment, où que vous soyez.",
+      "table":"Votre magasin sera visible par des centaines de dentistes actifs et de cliniques, facilitant ainsi la comparaison et l'achat de vos produits directement.",
+      "free":{
+        "title":"Exclusive Offer for Dental Stores",
+        "title2":"40 Days Free Access: Get full access to the platform for free.",
+        "after":"After 40 Days: Only €14.5/month.",
+        "checks":"Reach new clients instantly. Manage orders and supplies efficiently. Access exclusive discounts on materials. Boost your visibility in the dental community.",
+        "cta":"Join for free"
+      }
+    },
+    "increasing":{
+      "title": "Price increasing Soon ",
+      "from":"Get",
+      "to": "before it goes up to",
+      "month":"month ",
+      "dentist":"Enjoy a 6-day free trial to discover all features.Join dentists building their networks!",
+      "lock":"Secure your price now before the increase!"
+    }
+},
+"lab":{
+    "hero":{
+      "title":"AUGMENTER LA VISIBILITÉ. GAGNER LA CONFIANCE. ",
+      "description":"Plus de croissance. Plus de clients. Garanties."
+    },
+    "services":{
+      "p":"En vous connectant directement à un réseau de dentistes qui recherchent activement des fournitures dentaires de qualité.",
+      "content":{
+        "access":{
+          "title": "Accès direct aux dentistes",
+          "description": " Connectez-vous avec des dentistes qui ont besoin de vos services et construisez des relations durables."
+        },
+        "simplified":{
+          "title": "Plus de commandes, plus rapidement",
+          "description": "Recevez des commandes claires et détaillées pour améliorer la productivité. Achetez tout ce dont vous avez besoin chez un comptoire dentaire. "
+        },
+        "competitive":{
+          "title": "Communication efficace",
+          "description": " Collaborez directement avec les dentistes via la plateforme, sans les tracas des appels téléphoniques ou des visites."
+        },
+        "trust":{
+          "title": "Visibilité et confiance",
+          "description":"  Augmentez votre visibilité et gagnez la confiance des dentistes qui recherchent des laboratoires de qualité."
+        }
+      }
+    },
+    "plusServices":{
+      "plan":{
+        "title": "Planifiez comme un pro",
+        "description": "Suivez les tâches quotidiennes et les livraisons avec des rappels pour rester organisé."
+      },
+      "financial":{
+        "title": "Gestion financière",
+        "description": "Suivez les dépenses, gérez vos revenus et définissez des rappels de paiement facilement."
+      },
+      "growth":{
+        "title": "Soutien à la croissance de l’entreprise",
+        "description": "Obtenez de l'aide d'experts pour développer votre présence en ligne avec des offres spéciales."
+      },
+      "setup":{
+        "title": "Mise en place rapide",
+        "description": "Commencez à vendre en moins de 24 heures."
+      },
+      "notifications":{
+        "title": "Notifications en temps réel ",
+        "description": " Recevez des notifications instantanées lorsque des dentistes passent commande ou demandent des informations, vous aidant à répondre plus rapidement."
+      }
+    },
+    "plans":{
+      "title":"Mises à Jour Régulières",
+      "desc": "Cette plateforme vous fait gagner du temps",
+      "desc2":"vous permettant de gérer votre entreprise dentaire depuis votre téléphone 📱 ou votre ordinateur portable 💻, à tout moment, où que vous soyez.",
+      "table":"Votre labo sera visible par des centaines de dentistes actifs et de cliniques, facilitant ainsi la comparaison et te contacter directement.",
+      "free":{
+        "title":"Exclusive Offer for Dental Stores",
+        "title2":"40 Days Free Access: Get full access to the platform for free.",
+        "after":"After 40 Days: Only €14.5/month.",
+        "checks":"Reach new clients instantly. Manage orders and supplies efficiently. Access exclusive discounts on materials. Boost your visibility in the dental community.",
+        "cta":"Join for free"
+      }
+    },
+    "increasing":{
+      "title": "Price increasing Soon ",
+      "from":"Get",
+      "to": "before it goes up to",
+      "month":"month ",
+      "dentist":"Enjoy a 6-day free trial to discover all features.Join dentists building their networks!",
+      "lock":"Secure your price now before the increase!"
+    }
+}
+  
+}
+  

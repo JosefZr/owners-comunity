@@ -1,0 +1,33 @@
+{
+    "id": "/",
+    "start_url": "/#/channels",
+    "scope": "/channels",
+    "name": "Your Dental Network",
+    "short_name": "Your Dental Network",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#000000",
+    "permissions": ["notifications"],
+    "background_color": "#000000",
+    "gcm_sender_id": "103953800507",
+    "background": {
+        "scripts": ["sw.js"],
+        "persistent": true
+    },
+    "icons": [
+        {
+            "src": "/signLogo.webp",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "screenshots": [
+    {
+        "src": "/screenshots.png",
+        "sizes": "1920x1080",
+        "type": "image/png",
+        "form_factor": "narrow"
+    }
+]
+}
