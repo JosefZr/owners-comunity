@@ -54,6 +54,11 @@ const P = styled.p`
         color: #fff;
         font-weight: 600;
     }
+    i{
+        color: #fff;
+        font-weight: 600;
+        padding: 0 4px 0 0;
+    }
 @media screen and (min-width: 1024px) {
         font-size: 20px;
     }
@@ -78,22 +83,21 @@ const Texture = styled.h5`
     }
 `
 const HeroHeading = styled.h1`
-    margin-top: 2rem;
     background-color: white;
     text-transform: capitalize;
     background-position: 50%;
     background-repeat: repeat;
     -webkit-text-fill-color: transparent;
-    background-image: url("/backs/heading-texture_1heading-texture.webp");
+    /* background-image: url("/backs/heading-texture_1heading-texture.webp"); */
     background-clip: text;
     font-size: 55px;
     font-weight: 700;
     letter-spacing: -.03em;
-    line-height: 50px;
+    line-height: 66px;
     text-align: center;
     @media screen and (max-width: 991px) {
         font-size: 30px;
-        line-height: 34px;
+        line-height: 40px;
     }
 `;
 const Items = [
@@ -173,14 +177,14 @@ export default function Services() {
                                 Marketing is important…
                             </HeroHeading>
                             <P
-                                className="mt-4 max-w-[550px] text-center mx-auto"
+                                className="mt-4 max-w-[550px] text-center mx-auto "
                                 dangerouslySetInnerHTML={{
                                     __html: "…However, you’ve already got 49  things on your to-do list. Hiring.Sales.Payroll.Operations."
                                 }}
                             />
                             < P
                                 className="mt-4 max-w-[550px] text-center mx-auto"
-                                dangerouslySetInnerHTML={{ __html: "Now, <strong>you’re also expected to:</strong>  run ads, fix funnels, write copy, track leads, follow up, update your site... <br /> Come on. <br /><br /> <strong>What are you gonna do? </strong>" }}
+                                dangerouslySetInnerHTML={{ __html: "Now, <i>you’re also expected to: </i> run ads, fix funnels, write copy, track leads, follow up, update your site... <br /> <br /> Come on. <br /><br /> <strong>What are you gonna do? </strong>" }}
                             />
                         </div>
                     </div>
@@ -316,9 +320,9 @@ export default function Services() {
                         <div className="lg:p-[60px] p-2 w-full" >
                             <div className="flex flex-col items-center justify-center">
                                 <SmallSection2
-                                    top="That ends today."
+                                    top="Marketing is important…"
                                     title="…However, you’ve already got 49  things on your to-do list. Hiring. Sales. Payroll. Operations."
-                                    p="Now, <strong>you’re also expected to:</strong>  run ads, fix funnels, write copy, track leads, follow up, update your site... <br/> Come on. <br/><br/> <strong>What are you gonna do? </strong>"
+                                    p="Now, <i>you’re also expected to: </i> run ads, fix funnels, write copy, track leads, follow up, update your site... <br /> <br /> Come on. <br /><br /> <strong>What are you gonna do? </strong>"
                                 />
                             </div>
                         </div>

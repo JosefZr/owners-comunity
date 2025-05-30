@@ -229,17 +229,25 @@ export default function Hero() {
                     <WideLeftShades />
                     <div className="border-x-[1px] border-[#2b3340]">
                         <div className="lg:p-[60px] p-2 w-full" style={{ position: "relative" }}>
-                            <div className="flex">
-                                <LeftContent
+                            {/* <div className="flex"> */}
+                            <SmallLeftContent
+                                top="Marketing is strategy. Advertising is action."
+                                title="Marketing Built for Results"
+                                p="<strong>Your Ads Should Do One Thing: </br>Attract Buyers Who Say “Yes” Without Hesitation.</strong> <br/>
+                                         We build the system that makes that happen.<br/>
+                                        "
+                                button="Yes I Want That"
+                            />
+                            {/* <LeftContent
                                     top="Marketing is strategy. Advertising is action."
                                     title="Marketing Built for Results"
                                     p="<strong>Your Ads Should Do One Thing:</br>  Attract Buyers Who Say “Yes” Without Hesitation.</strong> <br/>
                                          We build the system that makes that happen.<br/>
                                         "
                                     button="Yes I Want That"
-                                />
-                                <RightVideo />
-                            </div>
+                                /> */}
+                            {/* <RightVideo /> */}
+                            {/* </div> */}
                         </div>
                     </div>
                     <WideRightShades />
@@ -249,7 +257,7 @@ export default function Hero() {
                 <article className="w-full max-w-[1428px] mx-auto px-[15px] lg:px-[41px] lg:border-x-[1px] lg:border-[#2b3340]" style={{ position: "relative" }}>
                     <SmallLeftShades />
                     <div className="border-x-[1px] border-[#2b3340]">
-                        <div className=" w-full group min-h-[200px]" style={{ position: "relative" }}>
+                        {/* <div className=" w-full group min-h-[200px]" style={{ position: "relative" }}>
                             <Special className="top-[-48px] left-[calc(50%-42px)] capitalize" style={{ position: "absolute" }}>in Less Than 48h</Special>
                             <div className=" undefined" style={{ position: "relative" }}>
                                 <div className=" w-full  undefined" style={{ position: "relative" }}>
@@ -273,7 +281,7 @@ export default function Hero() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <SmallLeftContent
                             top="Marketing is strategy. Advertising is action."
                             title="Marketing Built for Results"

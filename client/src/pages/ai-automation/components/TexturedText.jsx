@@ -14,7 +14,7 @@ const Texture = styled.h1`
     font-weight: 700;
     letter-spacing: -.03em;
 `
-export default function TexturedText({title}) {
+export default function TexturedText({ title }) {
     return (
         <Texture className="mt-2 capitalize text-center">{title}</Texture>
     )

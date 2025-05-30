@@ -19,7 +19,7 @@ const HeroHeading = styled.h1`
     background-position: 50%;
     background-repeat: repeat;
     -webkit-text-fill-color: transparent;
-    background-image: url("/backs/heading-texture_1heading-texture.webp");
+    /* background-image: url("/backs/heading-texture_1heading-texture.webp"); */
     background-clip: text;
     font-size: 55px;
     font-weight: 700;
@@ -109,7 +109,10 @@ export default function Pdf() {
                                 </P>
                                 <div className="flex flex-row w-full text-center items-center justify-center gap-5 pb-5">
                                     <div className="flex mt-8 justify-center">
-                                        <Link>
+                                        <Link
+                                            target="_blank"
+                                            to={"https://docs.google.com/document/d/1PRoBoyc2TCyF9UWCNVkdngW6CaQ2iIvmEnOWP2ZZEDs/edit?usp=sharing"}
+                                        >
                                             <Div className="hover:scale-105 duration-300 transition-all ">
                                                 <Button className="hover:scale-105 duration-300 transition-all">
                                                     SEE THE CASE STUDY
@@ -117,7 +120,7 @@ export default function Pdf() {
                                             </Div>
                                         </Link>
                                     </div>
-                                    <div className="flex mt-8 justify-center">
+                                    {/* <div className="flex mt-8 justify-center">
                                         <Link
                                             target="_blank"
                                             to={"https://docs.google.com/document/d/1PRoBoyc2TCyF9UWCNVkdngW6CaQ2iIvmEnOWP2ZZEDs/edit?usp=sharing"}>
@@ -127,7 +130,7 @@ export default function Pdf() {
                                                 </Button>
                                             </Div>
                                         </Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

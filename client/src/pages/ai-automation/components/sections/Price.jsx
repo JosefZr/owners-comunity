@@ -1,11 +1,9 @@
 import styled from "styled-components";
 import WideLeftShades from "../Shades/WideLeftShades";
-import { MdOutlineDone } from "react-icons/md";
 import { Link } from "react-router-dom";
 import WideRightShades from "../Shades/WideRightShades";
 import SmallLeftShades from "../Shades/SmallLeftShades";
 import SmallRightShades from "../Shades/SmallRightShades";
-import { CtaButton } from "@/components";
 
 const Texture = styled.h1`
     background-color: white;
@@ -13,7 +11,7 @@ const Texture = styled.h1`
     background-position: 50%;
     background-repeat: repeat;
     -webkit-text-fill-color: transparent;
-    background-image: url("/backs/heading-texture_1heading-texture.webp");
+    /* background-image: url("/backs/heading-texture_1heading-texture.webp"); */
     background-clip: text;
     font-size: 34px;
     font-weight: 600;
@@ -24,6 +22,7 @@ const P = styled.p`
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
+    text-align: center;
     color: hsla(0, 0%, 100%, .7);
     margin: 0 auto;
     @media screen and (min-width: 1024px) {
@@ -121,18 +120,21 @@ export default function Prices() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-1/3 border-r-[1px] border-r-[#2b3340]">
-                            <div className="p-[15px] w-full ">
-                                <div className="flex justify-center">
-                                    <div className="flex flex-col justify-center gap-4">
-                                        <div className="flex gap-4 items-center">
-                                            <P >We only work in the niches we dominate. That’s how we win.</P>
+                        <div className="w-1/3 ">
+                            <div className=" w-full ">
+                                <div className="p-[15px] w-full  undefined">
+                                    <div className="flex justify-center">
+                                        <div className="flex flex-col justify-center gap-4">
+                                            <div className="flex gap-4 items-center">
+                                                <P >We only work in the niches we dominate. That’s how we win.</P>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
-                        <div className="w-1/3 border-r-[1px] border-r-[#2b3340]">
+                        <div className="w-1/3 border-x-[1px] border-x-[#2b3340]">
                             <div className="p-[15px] w-full  undefined">
                                 <div className="flex justify-center">
                                     <div className="flex flex-col justify-center gap-4">

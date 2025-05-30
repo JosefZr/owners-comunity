@@ -10,12 +10,16 @@ const Texture = styled.h1`
     background-position: 50%;
     background-repeat: repeat;
     -webkit-text-fill-color: transparent;
-    background-image: url("/backs/heading-texture_1heading-texture.webp");
+    /* background-image: url("/backs/heading-texture_1heading-texture.webp"); */
     background-clip: text;
     font-size: 42px;
     font-weight: 600;
     line-height: 42px;
     letter-spacing: -.05em;
+      @media screen and (min-width: 1024px) {
+        font-size: 55px;
+        line-height: 65px;
+    }
 `
 const Div = styled.div`
     background: linear-gradient(88.87deg, var(--from) -49.96%, var(--to) 99.26%);

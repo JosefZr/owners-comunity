@@ -17,6 +17,24 @@ const Texture = styled.h1`
     font-weight: 700;
     letter-spacing: -.03em;
 `
+const HeroHeading = styled.h1`
+    background-color: white;
+    text-transform: capitalize;
+    background-position: 50%;
+    background-repeat: repeat;
+    -webkit-text-fill-color: transparent;
+    /* background-image: url("/backs/heading-texture_1heading-texture.webp"); */
+    background-clip: text;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: -.03em;
+    line-height: 66px;
+    text-align: center;
+    @media screen and (max-width: 991px) {
+        font-size: 30px;
+        line-height: 40px;
+    }
+`;
 const Div = styled.div`
     background: linear-gradient(88.87deg, var(--from) -49.96%, var(--to) 99.26%);
     padding: 2px;
@@ -55,21 +73,20 @@ const P = styled.p`
         color: #fff;
         font-weight: 600;
     }
+    i{
+        color: #fff;
+        font-weight: 600;
+        padding: 0 4px 0 0;
+    }
 `
 export default function SmallSection2({ top, title, p, button }) {
     return (
         <>
             <div className="lg:p-[60px] p-2 w-full " >
                 <div className="flex flex-col items-center z-10 " style={{ position: "relative" }}>
-                    {top && <div className="subtitle">
-                        <div className="subtitle-background">
-                            <h3>
-                                {top}
-                            </h3>
-                        </div>
-                    </div>}
-
-                    <TexturedText title={title} />
+                    <HeroHeading >
+                        {top}
+                    </HeroHeading>
                 </div>
             </div>
             <div style={{ position: "relative" }}>
@@ -79,11 +96,13 @@ export default function SmallSection2({ top, title, p, button }) {
                         background: "linear-gradient(to bottom, transparent, #01020b 35%, #01020b 75%, transparent)",
                         backgroundBlendMode: "overlay" // optional for better blending
                     }}
-                    className="top-[-140px] left-0 w-full h-[calc(100%+240px)]"
+                // className="top-[-140px] left-0 w-full h-[calc(100%+240px)]"
                 >
                 </div>
                 <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
+                    <P className="mt-2 text-center px-4 text-pretty" dangerouslySetInnerHTML={{ __html: title }} />
                     <P className="mt-2 text-center px-4 text-pretty" dangerouslySetInnerHTML={{ __html: p }} />
+
                 </div>
             </div>
             <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>

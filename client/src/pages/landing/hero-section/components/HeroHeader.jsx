@@ -4,7 +4,7 @@ const SubParagraph = styled.h2`
   color: var(--whiteGray);
   text-align: center;
   text-transform: none;
-  font-family: Inter Variablefont Slnt Wght, sans-serif;
+  /* font-family: Inter Variablefont Slnt Wght, sans-serif; */
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 1;
@@ -24,7 +24,7 @@ const HeroHeading = styled.h1`
   background-size: cover;
   text-align: center;
   -webkit-text-fill-color: transparent;
-  background-image: url("/backs/heading-texture_1heading-texture.webp");
+  /* background-image: url("/backs/heading-texture_1heading-texture.webp"); */
   background-clip: text;
   font-size: 3.88rem;
   font-weight: 600;
@@ -43,7 +43,8 @@ const HeroHeading = styled.h1`
 export default function HeroHeader() {
   return (
     <div className="flex flex-col gap-3 items-center mx-auto" style={{
-      maxWidth: "90%"
+      maxWidth: "90%",
+      fontFamily: "'Funnel Display', sans-serif"
     }}>
       {/* <Logo /> */}
       {/* <HeroHeading>

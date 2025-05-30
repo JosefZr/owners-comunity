@@ -68,7 +68,7 @@ const P = styled.p`
 export default function LeftContent({ top, title, p, button, cutted }) {
     return (
         <div className={`${cutted ? "w-2/5" : "w-1/2"}`}>
-            <div className="subtitle-container">
+            {top && <div className="subtitle-container">
                 <div className="subtitle">
                     <div className="subtitle-background">
                         <h3>
@@ -76,7 +76,7 @@ export default function LeftContent({ top, title, p, button, cutted }) {
                         </h3>
                     </div>
                 </div>
-            </div>
+            </div>}
             <HeroHeading>
                 {title}
             </HeroHeading>
