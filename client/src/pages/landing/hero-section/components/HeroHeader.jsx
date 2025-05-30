@@ -22,6 +22,7 @@ const HeroHeading = styled.h1`
   background-position: 50%;
   background-repeat: repeat;
   background-size: cover;
+  text-align: center;
   -webkit-text-fill-color: transparent;
   background-image: url("/backs/heading-texture_1heading-texture.webp");
   background-clip: text;
@@ -45,7 +46,7 @@ export default function HeroHeader() {
       maxWidth: "90%"
     }}>
       {/* <Logo /> */}
-      <HeroHeading>
+      {/* <HeroHeading>
         <div >
           <h1>
             You&apos;re running a business.
@@ -53,9 +54,13 @@ export default function HeroHeader() {
             You don’t need more tasks.
           </h1>
         </div>
-      </HeroHeading>
+      </HeroHeading> */}
       <SubParagraph>
         <div className='text-my-from'>
+          You&apos;re running a business.
+          <br />
+          You don’t need more tasks.
+          <br />
           You need <span className="font-bold text-my-white">systems that make money. Fast.</span>
         </div>
       </SubParagraph>

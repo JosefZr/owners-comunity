@@ -165,22 +165,29 @@ export default function Services() {
                 <article className="w-full max-w-[1428px] mx-auto px-[15px] lg:px-[41px] lg:border-x-[1px] lg:border-[#2b3340]" style={{ position: "relative" }}>
                     <WideLeftShades />
                     <div className="border-x-[1px] border-[#2b3340]">
-                        <div className="lg:p-[60px] p-2 w-full" style={{ position: "relative" }}>
-                            <div className="flex flex-col items-center justify-center">
+                        <div className="lg:p-[30px] p-2 w-full" style={{ position: "relative" }}>
+                            {/* <div className="flex flex-col items-center justify-center">
                                 <Subtitle top="Marketing is important…" />
-                            </div>
+                            </div> */}
                             <HeroHeading >
-                                …However, you’ve already got 49  things on your to-do list.
-                                Hiring. Sales. Payroll. Operations.
+                                Marketing is important…
                             </HeroHeading>
-
-                            <P className="mt-4 max-w-[550px] text-center mx-auto" dangerouslySetInnerHTML={{ __html: "Now, <strong>you’re also expected to:</strong>  run ads, fix funnels, write copy, track leads, follow up, update your site... <br/> Come on. <br/><br/> <strong>What are you gonna do? </strong>" }} />
+                            <P
+                                className="mt-4 max-w-[550px] text-center mx-auto"
+                                dangerouslySetInnerHTML={{
+                                    __html: "…However, you’ve already got 49  things on your to-do list. Hiring.Sales.Payroll.Operations."
+                                }}
+                            />
+                            < P
+                                className="mt-4 max-w-[550px] text-center mx-auto"
+                                dangerouslySetInnerHTML={{ __html: "Now, <strong>you’re also expected to:</strong>  run ads, fix funnels, write copy, track leads, follow up, update your site... <br /> Come on. <br /><br /> <strong>What are you gonna do? </strong>" }}
+                            />
                         </div>
                     </div>
                     <div className="reveal-vertical-left">
-                        <div className="lg:p-[60px] p-2 w-full" style={{ position: "relative" }}>
+                        <div className="lg:p-[40px] p-2 w-full" style={{ position: "relative" }}>
                             <GlowSquares />
-                            <img
+                            {/* <img
                                 src="https://www.cobratate.com/jointherealworld/arrow_left_alt.png"
                                 alt="Arrow Left"
                                 width={46}
@@ -189,7 +196,7 @@ export default function Services() {
                                 className={`left-0 top-[calc(50%-20px)] cursor-pointer transition-all duration-300 hover:scale-110 ${currentSlide === 0 ? 'opacity-50 cursor-not-allowed' : ''
                                     }`}
                                 style={{ position: "absolute", color: "transparent" }}
-                            />
+                            /> */}
                             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4" style={{ position: "relative" }}>
                                 {formattedItems.slice(
                                     currentSlide * itemsPerSlide,
@@ -278,7 +285,7 @@ export default function Services() {
                                 })}
                                 <div style={{ position: "absolute" }} className=" bg-[#01020b] top-0 left-0 w-full h-full pointer-events-none duration-500 transition-all opacity-0"></div>
                             </div>
-                            <img
+                            {/* <img
                                 src="https://www.cobratate.com/jointherealworld/arrow_right_alt.png"
                                 alt="Arrow Right"
                                 width={46}
@@ -287,8 +294,8 @@ export default function Services() {
                                 className={`right-0 top-[calc(50%-20px)] cursor-pointer transition-all duration-300 hover:scale-110 ${currentSlide === totalSlides - 1 ? 'opacity-50 cursor-not-allowed' : ''
                                     }`}
                                 style={{ position: "absolute", color: "transparent" }}
-                            />
-                            <div className="flex items-center justify-center gap-2 mt-10 bottom-6 left-[calc(50%-120px)]" style={{ position: "absolute" }}>
+                            /> */}
+                            {/* <div className="flex items-center justify-center gap-2 mt-10 bottom-6 left-[calc(50%-120px)]" style={{ position: "absolute" }}>
                                 {Array.from({ length: totalSlides }).map((_, index) => (
                                     <div
                                         key={index}
@@ -296,7 +303,7 @@ export default function Services() {
                                             }`}
                                     />
                                 ))}
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <WideRightShades />

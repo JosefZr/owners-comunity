@@ -38,18 +38,17 @@ export default function ReverseSection() {
                                     button="GET MY MARKETING PLAN"
                                     cutted="true"
                                 />
-                                {/* <RightVideo/> */}
-                                <div className="w-1/2 border-l-[1px] border-l-[#2b3340] top-[20%] left-0 max-h-[100%] overflow-hidden" style={{ position: "absolute" }}>
-                                    <img
-                                        src="/ai/2.jpeg"
-                                        alt="Section Timeout Background"
-                                        style={{ color: "transparent" }}
-                                        className="object-cover h-[100%] w-full"
-                                        loading="lazy"
-                                        width={1334}
-                                        height={1642}
-                                        decoding="async"
-                                    />
+                                {/* Calendar Embed */}
+                                <div className="w-1/2 border-l-[1px] border-l-[#2b3340] top-0 left-0 h-full" style={{ position: "absolute" }}>
+                                    <div className="w-full h-full bg-gray-100">
+                                        <iframe
+                                            src="https://calendly.com/wcmarketingg/30min?month=2025-05"
+                                            width="100%"
+                                            height="100%"
+                                            frameBorder="0"
+                                            className="bg-white"
+                                        ></iframe>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -62,15 +61,6 @@ export default function ReverseSection() {
                     <SmallLeftShades />
                     <div className="border-x-[1px] border-[#2b3340]">
                         <div className="lg:hidden pt-12 pb-8" style={{ position: "relative" }}>
-                            <img
-                                src="/ai/2.jpeg"
-                                alt="carbon fiber bg"
-                                width="1334"
-                                height="1642"
-                                loading="lazy"
-                                className="object-cover h-[100%] w-full top-0 left-0 pointer-events-none z-0 opacity-75"
-                                style={{ position: "absolute", color: "transparent" }}
-                            />
                             <SmallSection2
                                 top="How We Work"
                                 title="Book Your Free Strategy Call"
@@ -92,6 +82,16 @@ export default function ReverseSection() {
                                 button="GET MY MARKETING PLAN"
                                 cutted="true"
                             />
+                            {/* Mobile Calendar Embed */}
+                            <div className="mt-8 px-4 w-full h-[700px]">
+                                <iframe
+                                    src="https://calendly.com/wcmarketingg/30min?month=2025-05"
+                                    width="100%"
+                                    height="100%"
+                                    frameBorder="0"
+                                    className="bg-white rounded-lg"
+                                ></iframe>
+                            </div>
                         </div>
                     </div>
                     <SmallRightShades />

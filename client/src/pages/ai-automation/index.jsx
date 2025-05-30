@@ -22,7 +22,7 @@ export default function AiAutomation() {
             <Questions />
             <Pdf />
             <ReverseSection />
-            <BeforeLastSection />
+            {/* <BeforeLastSection /> */}
             <LastSection />
         </div>
     )

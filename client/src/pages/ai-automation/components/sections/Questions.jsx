@@ -91,19 +91,24 @@ export default function Questions() {
                                     You Don’t Need Another “Ad Guy.”
                                 </HeroHeading>
                                 <P className="mt-4 max-w-[550px] text-center mx-auto" >
-                                    You need a partner who builds
-                                    <strong> the whole system.</strong>
+                                    You need a partner who builds the whole system.
                                 </P>
                                 <P className="mt-4 max-w-[550px] text-center mx-auto" >
                                     offers that <strong>convert, </strong>
                                     funnels that <strong>flow, </strong>
                                     bots that <strong>close, </strong>
                                     ads that <strong>sell. </strong>
-
                                 </P>
-                                <div className="flex mt-8 justify-center ">
+                                <P className="mt-4 max-w-[550px] text-center mx-auto" >
+                                    <strong>That’s us.</strong>
+                                </P>
+                                <div className="flex my-8 justify-center ">
                                     <Link>
-                                        <CtaButton content="Yes I Need That" />
+                                        <Div className="hover:scale-105 duration-300 transition-all ">
+                                            <Button className="hover:scale-105 duration-300 transition-all">
+                                                Yes I Need That
+                                            </Button>
+                                        </Div>
                                     </Link>
                                 </div>
                             </div>

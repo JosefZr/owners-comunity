@@ -146,7 +146,7 @@ export default function Hero() {
                                     <div className="flex flex-col justify-center items-center py-3">
                                         <div className="border-[6px] border-white/50 rounded-full">
                                             <div className="border-[3px] border-white rounded-full">
-                                                <img className="w-[60px] h-[60px] rounded-full scale-150" src="/ai/autobank.webp" alt="" height={168} width={168} />
+                                                <img className="w-[60px] h-[60px] rounded-full scale-150" src="/signLogo.jpg" alt="" height={168} width={168} />
                                             </div>
                                         </div>
                                     </div>
@@ -154,9 +154,9 @@ export default function Hero() {
                                         <div onClick={toggleMenu} className="group cursor-pointer">
                                             <div className="border-[4px] border-[#2b334079]">
                                                 <div className="border-[2px] border-[#2b3340be]">
-                                                    <Link to={"https://buildydn.com/#/login"} className="group cursor-pointer text-white flex items-center gap-4 pointer-events-auto transition-all duration-300 border-stroke hover:border-[#6a6d6f] border-[1px] hover:bg-[#202326] py-1 px-3 w-auto">
-                                                        <img src="https://www.cobratate.com/jointherealworld/login_icon.png" alt="za" className="w-[28px] h-[28px]" width={56} height={56} />
-                                                        <p className="text-sm">LOGIN</p>
+                                                    <Link to={"https://buildydn.com/#/login"} className="group cursor-pointer text-white flex items-center gap-4 pointer-events-auto transition-all duration-300 border-stroke hover:border-[#6a6d6f] border-[1px] hover:bg-[#202326] py-2 px-3 w-auto">
+                                                        {/* <img src="https://www.cobratate.com/jointherealworld/login_icon.png" alt="za" className="w-[28px] h-[28px]" width={56} height={56} /> */}
+                                                        <p className="text-sm">FREE GUIDE</p>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -204,7 +204,7 @@ export default function Hero() {
                         <div className="flex flex-col justify-center items-center">
                             <div className="border-[6px] border-white/50 rounded-full">
                                 <div className="border-[3px] border-white rounded-full">
-                                    <img className="w-[50px] h-[50px] rounded-full scale-150" src="/ai/autobank.webp" alt="" height={168} width={168} />
+                                    <img className="w-[50px] h-[50px] rounded-full scale-150" src="/signLogo.jpg" alt="" height={168} width={168} />
                                 </div>
                             </div>
                         </div>
@@ -212,9 +212,9 @@ export default function Hero() {
                             <div onClick={toggleMenu} className="group cursor-pointer">
                                 <div className="border-[4px] border-[#2b334079]">
                                     <div className="border-[2px] border-[#2b3340be]">
-                                        <Link to={"https://buildydn.com/#/login"} target="_blank" className="group cursor-pointer text-white flex items-center gap-4 pointer-events-auto transition-all duration-300 border-stroke hover:border-[#6a6d6f] border-[1px] hover:bg-[#202326] py-1 px-3 w-auto">
-                                            <img src="https://www.cobratate.com/jointherealworld/login_icon.png" alt="za" className="w-[28px] h-[28px]" width={56} height={56} />
-                                            <p className="text-sm">LOGIN</p>
+                                        <Link to={"https://buildydn.com/#/login"} target="_blank" className="group cursor-pointer text-white flex items-center gap-4 pointer-events-auto transition-all duration-300 border-stroke hover:border-[#6a6d6f] border-[1px] hover:bg-[#202326] py-2 px-3 w-auto">
+                                            {/* <img src="https://www.cobratate.com/jointherealworld/login_icon.png" alt="za" className="w-[28px] h-[28px]" width={56} height={56} /> */}
+                                            <p className="text-sm">FREE GUIDE</p>
                                         </Link>
                                     </div>
                                 </div>
@@ -233,7 +233,7 @@ export default function Hero() {
                                 <LeftContent
                                     top="Marketing is strategy. Advertising is action."
                                     title="Marketing Built for Results"
-                                    p="<strong>Your Ads Should Do One Thing:Attract Buyers Who Say “Yes” Without Hesitation.</strong> <br/>
+                                    p="<strong>Your Ads Should Do One Thing:</br>  Attract Buyers Who Say “Yes” Without Hesitation.</strong> <br/>
                                          We build the system that makes that happen.<br/>
                                         "
                                     button="Yes I Want That"
@@ -277,7 +277,7 @@ export default function Hero() {
                         <SmallLeftContent
                             top="Marketing is strategy. Advertising is action."
                             title="Marketing Built for Results"
-                            p="<strong>Your Ads Should Do One Thing:Attract Buyers Who Say “Yes” Without Hesitation.</strong> <br/>
+                            p="<strong>Your Ads Should Do One Thing: </br>Attract Buyers Who Say “Yes” Without Hesitation.</strong> <br/>
                                          We build the system that makes that happen.<br/>
                                         "
                             button="Yes I Want That"

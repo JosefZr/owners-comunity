@@ -37,6 +37,35 @@ const Content = styled.div`
 
  
 `;
+const Div = styled.div`
+    background: linear-gradient(88.87deg, var(--from) -49.96%, var(--to) 99.26%);
+    padding: 2px;
+    clip-path: polygon(22px 0, 100% 0, 100% calc(100% - 22px), calc(100% - 22px) 100%, 0 100%, 0 22px);
+    width: 100%;
+    @media screen and (min-width: 1024px) {
+        width: auto;
+    }
+`
+const Button = styled.button`
+    position: relative;
+    padding: 16px 32px;
+    background: linear-gradient(87.1deg, var(--from) 1.37%,  var(--to) 101.5%);
+    text-align: center;
+    color: black;
+    clip-path: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px);
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 27.5px;
+    letter-spacing: -.05em;
+    width: 100%;
+    @media screen and (min-width: 1024px) {
+        min-width: 400px;
+        font-size: 28px;
+        line-height: 35px;
+        padding: 20px 52px;
+        width: auto;
+    }
+`
 const Subtitle = styled.div`
     font-size: 14px;
     text-transform: uppercase;
@@ -157,6 +186,7 @@ import WideLeftShades from "@/pages/ai-automation/components/Shades/WideLeftShad
 import WideRightShades from "@/pages/ai-automation/components/Shades/WideRightShades";
 import SmallLeftShades from "@/pages/ai-automation/components/Shades/SmallLeftShades";
 import SmallRightShades from "@/pages/ai-automation/components/Shades/SmallRightShades";
+import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 export default function Hero() {
@@ -170,8 +200,8 @@ export default function Hero() {
 
           <WideLeftShades />
           <div className="border-x-[1px] border-[#2b3340]">
-            <HeroHeader />
-            <>
+
+            <div className="space-y-5">
               <HeroViddeo />
               {/* <div className="flex w-full gap-12 lg:gap-0 flex-col lg:flex-row items-center justify-evenly mt-4 lg:mt-32 max-w-[1280px] mx-auto">
                 <div className="max-w-[320px] pt-2 mt-0">
@@ -211,8 +241,9 @@ export default function Hero() {
                   </a>
                 </div>
               </div> */}
+              <HeroHeader />
               <CtaButton content="Get My Plan " />
-            </>
+            </div>
           </div>
 
 
@@ -223,10 +254,8 @@ export default function Hero() {
         <article className="w-full max-w-[1428px] mx-auto px-[15px] lg:px-[41px] lg:border-x-[1px] lg:border-[#2b3340]" style={{ position: "relative" }}>
           <SmallLeftShades />
           <div className="border-x-[1px] border-[#2b3340]">
-            <HeroHeader />
-            <>
+            <div className="space-y-5">
               <HeroViddeo />
-
               {/* <div className="flex w-full gap-12 lg:gap-0 flex-col lg:flex-row items-center justify-evenly mt-4 lg:mt-32 max-w-[1280px] mx-auto">
                 <div className="max-w-[320px] pt-2 mt-0">
                   <Subtitle>FAIL TO ACHIEVE</Subtitle>
@@ -265,8 +294,18 @@ export default function Hero() {
                   </a>
                 </div>
               </div> */}
-              <CtaButton content="Get My Plan " />
-            </>
+              <HeroHeader />
+              <div className="flex mt-4 justify-center pb-8">
+                <Link>
+                  <Div className="hover:scale-105 duration-300 transition-all ">
+                    <Button className="hover:scale-105 duration-300 transition-all">
+                      Get My Plan
+                    </Button>
+                  </Div>
+                </Link>
+              </div>
+
+            </div>
           </div>
           <SmallRightShades />
         </article>

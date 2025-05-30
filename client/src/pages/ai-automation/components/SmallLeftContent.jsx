@@ -65,8 +65,10 @@ export default function SmallLeftContent({ top, title, p, button }) {
                 <P className="mt-2 text-center px-4 text-pretty" dangerouslySetInnerHTML={{ __html: p }} />
                 <div className="flex mt-4 justify-center pb-8">
                     <Link>
-                        <Div className="hover:scale-105 duration-300 transition-all">
-                            <CtaButton className="hover:scale-105 duration-300 transition-all" content={button} />
+                        <Div className="hover:scale-105 duration-300 transition-all ">
+                            <Button className="hover:scale-105 duration-300 transition-all">
+                                {button}
+                            </Button>
                         </Div>
                     </Link>
                 </div>

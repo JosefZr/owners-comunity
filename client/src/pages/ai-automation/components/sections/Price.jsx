@@ -15,7 +15,7 @@ const Texture = styled.h1`
     -webkit-text-fill-color: transparent;
     background-image: url("/backs/heading-texture_1heading-texture.webp");
     background-clip: text;
-    font-size: 42px;
+    font-size: 34px;
     font-weight: 600;
     line-height: 42px;
     letter-spacing: -.05em;
@@ -25,6 +25,7 @@ const P = styled.p`
     font-weight: 500;
     line-height: 26px;
     color: hsla(0, 0%, 100%, .7);
+    margin: 0 auto;
     @media screen and (min-width: 1024px) {
         font-size: 22px;
     }
@@ -87,21 +88,21 @@ export default function Prices() {
 
                     <div className="flex border-t-[1px] border-t-[#2b3340]">
                         <div className="w-1/3 border-x-[1px] border-x-[#2b3340]">
-                            <div className="lg:p-[10px] mt-16 p-2 w-full " style={{ position: "relative" }}>
+                            <div className="lg:p-[30px]  p-2 w-full " style={{ position: "relative" }}>
                                 <div className="flex justify-center items-center flex-col">
                                     <Texture className="my-2 capitalize text-center justify-self-end">We Guarantee Results.</Texture>
                                 </div>
                             </div>
                         </div>
                         <div className="w-1/3 ">
-                            <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
+                            <div className="lg:py-[30px] p-2 w-full " style={{ position: "relative" }}>
                                 <div className="flex justify-center items-center flex-col">
                                     <Texture className="mt-2 capitalize text-center justify-self-center">We’re Local & Reachable.</Texture>
                                 </div>
                             </div>
                         </div>
                         <div className="w-1/3 border-x-[1px] border-x-[#2b3340]">
-                            <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
+                            <div className="lg:py-[30px] p-2 w-full " style={{ position: "relative" }}>
                                 <div className="flex justify-center items-center flex-col">
                                     <Texture className="mt-2 capitalize text-center justify-self-start">We Specialize.</Texture>
                                 </div>
@@ -109,8 +110,8 @@ export default function Prices() {
                         </div>
                     </div>
                     <div className="flex">
-                        <div className="w-1/3 border-r-[1px] border-r-[#2b3340]">
-                            <div className="p-[30px] w-full relative undefined">
+                        <div className="w-1/3 border-x-[1px] border-x-[#2b3340]">
+                            <div className="p-[15px] w-full  undefined">
                                 <div className="flex justify-center">
                                     <div className="flex flex-col justify-center gap-4">
                                         <div className="flex gap-4 items-center">
@@ -121,33 +122,38 @@ export default function Prices() {
                             </div>
                         </div>
                         <div className="w-1/3 border-r-[1px] border-r-[#2b3340]">
-                            <div className="p-[30px] w-full ">
+                            <div className="p-[15px] w-full ">
                                 <div className="flex justify-center">
                                     <div className="flex flex-col justify-center gap-4">
                                         <div className="flex gap-4 items-center">
-                                            <P1 > We only work in the niches we dominate. That’s how we win.</P1>
+                                            <P >We only work in the niches we dominate. That’s how we win.</P>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="w-1/3 border-r-[1px] border-r-[#2b3340]">
-                            <div className="p-[30px] w-full relative undefined">
+                            <div className="p-[15px] w-full  undefined">
                                 <div className="flex justify-center">
                                     <div className="flex flex-col justify-center gap-4">
                                         <div className="flex gap-4 items-center">
-                                            <P1 >Stop losing patients when you&apos;re not available</P1>
+                                            <P >Stop losing patients when you&apos;re not available</P>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="flex border-t-[1px] border-t-[#2b3340]">
+                    <div className="flex border-t-[1px] border-t-[#2b3340] border-x-[1px] border-x-[#2b3340]">
                         <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
                             <div className="flex justify-center mt-2">
                                 <Link>
-                                    <CtaButton content='Let’s Get To Work' />
+                                    <Div >
+                                        <Button className="hover:scale-105 duration-300 transition-all">
+                                            Let’s Get To Work
+                                        </Button>
+
+                                    </Div>
                                 </Link>
                             </div>
                         </div>
@@ -191,7 +197,7 @@ export default function Prices() {
                                     <div className="flex justify-center">
                                         <div className="flex flex-col justify-center gap-4 my-4">
                                             <div className="flex gap-4 items-center">
-                                                <P > No ghost team. No waiting days for replies.</P>
+                                                <P> We only work in the niches we dominate. That’s how we win.</P>
                                             </div>
 
                                         </div>
@@ -211,18 +217,23 @@ export default function Prices() {
                                     <div className="flex justify-center">
                                         <div className="flex flex-col justify-center gap-4 my-4">
                                             <div className="flex gap-4 items-center">
-                                                <P > We only work in the niches we dominate. That’s how we win.</P>
+                                                <P > Stop losing patients when you&apos;re not available.</P>
                                             </div>
 
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex border-t-[1px] border-t-[#2b3340]">
-                                <div className="lg:p-[60px] p-2 w-full " style={{ position: "relative" }}>
+                            <div className="flex border-x-[1px] border-x-[#2b3340]">
+                                <div className="p-[30px] w-full " style={{ position: "relative" }}>
                                     <div className="flex justify-center">
                                         <Link>
-                                            <CtaButton content='Let’s Get To Work' />
+                                            <Div >
+                                                <Button className="hover:scale-105 duration-300 transition-all">
+                                                    Let’s Get To Work
+                                                </Button>
+
+                                            </Div>
                                         </Link>
                                     </div>
                                 </div>

@@ -59,7 +59,11 @@ export default function LeftContent2({ top, title, p, button, cutted }) {
             <Paragraph p={p} />
             <div className="flex mt-8 ">
                 <Link>
-                    <CtaButton content={button} defaultAction={false}></CtaButton>
+                    <Div className="hover:scale-105 duration-300 transition-all ">
+                        <Button className="hover:scale-105 duration-300 transition-all">
+                            {button}
+                        </Button>
+                    </Div>
                 </Link>
             </div>
 

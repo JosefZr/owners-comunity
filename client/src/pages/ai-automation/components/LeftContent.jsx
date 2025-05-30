@@ -40,7 +40,7 @@ const Button = styled.button`
     font-weight: 800;
     line-height: 27.5px;
     letter-spacing: -.05em;
-    width: 100%;
+    width: 80%;
     @media screen and (min-width: 1024px) {
         min-width: 400px;
         font-size: 28px;
@@ -83,9 +83,11 @@ export default function LeftContent({ top, title, p, button, cutted }) {
             <P className={` mt-8  ${cutted ? "max-w-[408px]" : ""}`} dangerouslySetInnerHTML={{ __html: p }} />
             <div className="flex mt-8 ">
                 <Link>
-                    {/* <Div className="hover:scale-105 duration-300 transition-all "> */}
-                    <CtaButton className="hover:scale-105 duration-300 transition-all" content={button} />
-                    {/* </Div> */}
+                    <Div className="hover:scale-105 duration-300 transition-all ">
+                        <Button className="hover:scale-105 duration-300 transition-all">
+                            {button}
+                        </Button>
+                    </Div>
                 </Link>
             </div>
         </div>
