@@ -9,9 +9,9 @@ export default defineConfig({
     minify: true,
     inject: {
       data: {
-        title: 'Your Dental Network',
-        description: 'Dr.Truth "Dentistry Mastery Code is the key to becoming a successful dentist who runs a profitable practice and It\'s attainable only through Building Your Dental Network {YDN}."',
-        keywords: 'dental practice, dentist software, patient retention, dental management'
+        title: 'Market with Dr Truth',
+        description: 'World Class Marketing is an online marketing agency that becomes your marketing department on-demand."',
+        keywords: 'online marketing agency, marketing agency on-demand, outsourced marketing team, digital marketing services, virtual marketing department'
       }
     }
   })],

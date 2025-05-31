@@ -1,7 +1,7 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import "../../index.css"
-import LeftContent from "../LeftContent";
-import RightVideo from "../RightVideo";
+// import LeftContent from "../LeftContent";
+// import RightVideo from "../RightVideo";
 import SmallLeftContent from "../SmallLeftContent";
 import WideLeftShades from "../Shades/WideLeftShades";
 import WideRightShades from "../Shades/WideRightShades";
@@ -19,7 +19,6 @@ const Special = styled.h1`
         display: none;
     }
 `
-
 const Sidebar = styled.div`
   position: fixed;
   top: 0;
@@ -39,7 +38,6 @@ const Sidebar = styled.div`
     width: 70%;
   }
 `
-
 const Overlay = styled.div`
   position: fixed;
   top: 0;
@@ -54,7 +52,6 @@ const Overlay = styled.div`
   backdrop-filter: blur(3px); /* Light blur for background */
   -webkit-backdrop-filter: blur(3px); /* For Safari */
 `
-
 const MenuItem = styled.div`
   color: ${props => props.$active ? 'var(--redClaire)' : 'var(--white)'};
   font-size: 1.1rem;
@@ -189,26 +186,26 @@ export default function Hero() {
             <div className=" w-full pointer-events-none lg:hidden z-50" style={{ position: "relative" }}>
                 <div className="text-sm">
                     <div className="justify-between flex w-full " style={{ position: "relative" }}>
-                        <div className=" z-40 flex justify-center items-center transition-all duration-500 false p-6" style={{ position: "relative" }}>
+                        <div className=" z-40 flex justify-center items-center transition-all duration-500 p-6 max-sm:px-1 max-sm:py-4" style={{ position: "relative" }}>
                             <div onClick={toggleMenu} className="group cursor-pointer">
                                 <div className="border-[4px] border-[#2b334079]">
                                     <div className="border-[2px] border-[#2b3340be]">
-                                        <div className="group cursor-pointer text-white flex items-center gap-4 pointer-events-auto transition-all duration-300 border-stroke hover:border-[#6a6d6f] border-[1px] hover:bg-[#202326] py-1 px-3 w-auto">
+                                        <div className="group cursor-pointer text-white flex items-center gap-4 max-sm:gap-1 pointer-events-auto transition-all duration-300 border-stroke hover:border-[#6a6d6f] border-[1px] hover:bg-[#202326] py-1 px-3 max-sm:px-1 w-auto">
                                             <img src="https://www.cobratate.com/jointherealworld/menu_icon.svg" alt="za" className="w-[28px] h-[28px]" width={56} height={56} />
-                                            <p className="text-sm">MENU</p>
+                                            <p className="text-sm max-sm:text-xs">MENU</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="flex flex-col justify-center items-center">
-                            <div className="border-[6px] border-white/50 rounded-full">
-                                <div className="border-[3px] border-white rounded-full">
-                                    <img className="w-[50px] h-[50px] rounded-full scale-150" src="/signLogo.jpg" alt="" height={168} width={168} />
+                            <div className="border-[3px] border-white/50 rounded-full">
+                                <div className="border-[1px] border-white rounded-full">
+                                    <img className="w-[50px] h-[50px] rounded-full scale-150 max-sm:scale-100" src="/signLogo.jpg" alt="" height={168} width={168} />
                                 </div>
                             </div>
                         </div>
-                        <div className=" z-40 flex justify-center items-center transition-all duration-500 false p-6" style={{ position: "relative" }}>
+                        <div className=" z-40 flex justify-center items-center transition-all duration-500 false p-6 max-sm:px-1 max-sm:py-4" style={{ position: "relative" }}>
                             <div onClick={toggleMenu} className="group cursor-pointer">
                                 <div className="border-[4px] border-[#2b334079]">
                                     <div className="border-[2px] border-[#2b3340be]">

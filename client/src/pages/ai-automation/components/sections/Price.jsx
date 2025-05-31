@@ -126,7 +126,7 @@ export default function Prices() {
                                     <div className="flex justify-center">
                                         <div className="flex flex-col justify-center gap-4">
                                             <div className="flex gap-4 items-center">
-                                                <P >We only work in the niches we dominate. That’s how we win.</P>
+                                                <P >No ghost team. No waiting days for replies.</P>
                                             </div>
                                         </div>
                                     </div>
@@ -139,7 +139,7 @@ export default function Prices() {
                                 <div className="flex justify-center">
                                     <div className="flex flex-col justify-center gap-4">
                                         <div className="flex gap-4 items-center">
-                                            <P >Stop losing patients when you&apos;re not available</P>
+                                            <P > We only work in the niches we dominate. That’s how we win.</P>
                                         </div>
                                     </div>
                                 </div>
@@ -199,7 +199,7 @@ export default function Prices() {
                                     <div className="flex justify-center">
                                         <div className="flex flex-col justify-center gap-4 my-4">
                                             <div className="flex gap-4 items-center">
-                                                <P> We only work in the niches we dominate. That’s how we win.</P>
+                                                <P> No ghost team. No waiting days for replies.</P>
                                             </div>
 
                                         </div>
@@ -219,7 +219,7 @@ export default function Prices() {
                                     <div className="flex justify-center">
                                         <div className="flex flex-col justify-center gap-4 my-4">
                                             <div className="flex gap-4 items-center">
-                                                <P > Stop losing patients when you&apos;re not available.</P>
+                                                <P>We only work in the niches we dominate. That’s how we win.</P>
                                             </div>
 
                                         </div>

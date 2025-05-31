@@ -52,6 +52,11 @@
         padding: 13px 52px;
     }
 }
+@media screen and (max-width: 1024px) {
+    .subtitle-background {
+        padding: 12px 12px;
+    }
+}
 
 @media screen and (min-width: 1024px) {
     .subtitle h3 {
