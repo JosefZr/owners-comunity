@@ -31,6 +31,7 @@ import GrowthSupport from "./pages/growth-support";
 import Home from "./pages/Notification";
 import AiAutomation from "./pages/ai-automation";
 import Parlor from "./pages/parlor";
+import Sollutions from "./pages/landing/Sollutions";
 
 export default function App() {
   usePixel(); // Add this at top level
@@ -66,6 +67,7 @@ export default function App() {
       <Route path="/success" element={<SuccessPage />} />
       <Route path="/" element={<AiAutomation />} />
       <Route path="/parlor" element={<Parlor />} />
+      <Route path="/sollutions" element={<Sollutions />} />
       {/* <Route path="/:name" element={<Landing />} /> */}
       <Route path="/marketing" element={<GrowthSupport />} />
       <Route path="/privacy" element={<Privacy />} />

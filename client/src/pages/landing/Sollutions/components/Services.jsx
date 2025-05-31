@@ -1,15 +1,11 @@
 import useReveal from "@/hooks/useReveal";
 import styled from "styled-components";
-import { GiDoctorFace, GiLockedChest, GiNetworkBars, GiPayMoney, GiStarMedal, GiTeacher } from "react-icons/gi";
+import { GiBrain, GiCash, GiRobotGolem, GiShare, GiTakeMyMoney, GiWebSpit, } from "react-icons/gi";
 
 import React, { useEffect, useRef, useState } from "react";
 import WideRightShades from "@/pages/ai-automation/components/Shades/WideRightShades";
-import SmallLeftShades from "@/pages/ai-automation/components/Shades/SmallLeftShades";
-import SmallSection2 from "@/pages/ai-automation/components/SmallSection2";
-import SmallRightShades from "@/pages/ai-automation/components/Shades/SmallRightShades";
 import WideLeftShades from "@/pages/ai-automation/components/Shades/WideLeftShades";
 import GlowSquares from "@/pages/ai-automation/components/Shades/GlowSquares";
-import { FaBusinessTime } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const Div = styled.div`
     background: linear-gradient(88.87deg, var(--from) -49.96%, var(--to) 99.26%);
@@ -97,32 +93,37 @@ const HeroHeading = styled.h1`
 `;
 const Items = [
     {
-        title: "Execution Vault",
-        icon: <GiLockedChest />,
-        p: "Templates, funnels, SOPs — <strong>all the tools that actually move the needle.</strong>",
+        title: "Marketing Systems That Convert",
+        icon: <GiTakeMyMoney />,
+        p: "We build the full setup: <strong>Offers that sell</strong>, <strong>Funnels that turn visitors into buyers</strong>, <strong>Follow-up that closes the deal</strong> (on_demand). Everything works together to bring in paying clients — day after day."
     },
     {
-        title: "Private Network",
-        icon: <GiNetworkBars />,
-        p: "<strong>No fake hustle, no noisy threads.</strong> Just operators focused on results and growth.",
+        title: "AI Bots That Book Calls For You",
+        icon: <GiRobotGolem />,
+        p: "Your leads shouldn’t wait. Our bots reply instantly, follow up, and book appointments for you — 24/7. They sound like you, act like you, and never sleep."
     },
     {
-        title: "Personal Help From Dr. Truth",
-        icon: <GiDoctorFace />,
-        p: "<strong>You get my brain, my team, and our weapons.</strong> We'll help you fix what's broken and scale what's working.",
+        title: "Paid Advertising That Bring Results",
+        icon: <GiCash />,
+        p: "We run ads on Meta and Google — and make sure they work. Every dollar is tracked. If an ad doesn’t convert, we fix it. Fast. You get more calls, more sales, and real growth."
     },
     {
-        title: "Access to Premium Services",
-        icon: <GiStarMedal />,
-        p: "Want help <strong>launching ads, scaling offers, or fixing broken websites?</strong> It's all available when you're ready.",
+        title: "Strategy + Support (Done-With-You)",
+        icon: <GiBrain />,
+        p: "You’ve got a team — but you need a clear plan. We step in, clean it up, and show you how to scale without the chaos. We help you lock it all in."
     },
     {
-        title: "This Isn’t For Tourists.",
-        icon: <GiStarMedal />,
-        p: "If you’re not ready to talk about money/mindset this place isn’t for you.",
+        title: "Websites & Digital Platforms",
+        icon: <GiWebSpit />,
+        p: "Lean, fast, built to convert. No fluff. Just pages that work."
     },
+    {
+        title: "Social Media Management",
+        icon: <GiShare />,
+        p: "For clients only. Strategic posting that supports ads — not busywork."
+    }
 ]
-export default function Get() {
+export default function Services() {
     useReveal("vertical");
 
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -174,13 +175,14 @@ export default function Get() {
                 <article className="w-full max-w-[1428px] mx-auto px-[15px] lg:px-[41px] lg:border-x-[1px] lg:border-[#2b3340]" style={{ position: "relative" }}>
                     <WideLeftShades />
                     <div className="border-x-[1px] border-[#2b3340]">
-                        <div className="lg:p-[30px] p-2 w-full" style={{ position: "relative" }}>
+                        <div className="lg:p-[30px] p-2 w-full flex flex-col gap-3" style={{ position: "relative" }}>
                             {/* <div className="flex flex-col items-center justify-center">
                                 <Subtitle top="Marketing is important…" />
                             </div> */}
                             <HeroHeading >
-                                WHAT YOU GET:
+                                Our Solutions
                             </HeroHeading>
+                            <P className=" text-center px-4 text-pretty " dangerouslySetInnerHTML={{ __html: " We don’t sell “services.” </br> We build systems that make you money." }} />
                         </div>
                     </div>
                     <div className="reveal-vertical-left">
@@ -217,7 +219,7 @@ export default function Get() {
                                                                 ) : (
                                                                     <>
                                                                         {React.cloneElement(item.icon, {
-                                                                            className: "h-[48px] w-auto transition-all duration-500",
+                                                                            className: "h-[48px] w-auto hidden lg:block transition-all duration-500",
                                                                         })}
                                                                         {React.cloneElement(item.icon, {
                                                                             className: "h-[48px] w-auto lg:opacity-0 group-hover:opacity-100 transition-all duration-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2",
@@ -345,7 +347,7 @@ export default function Get() {
                     <SmallRightShades />
                 </article>
             </div> */}
-            <div className="flex justify-center pt-10">
+            {/* <div className="flex justify-center pt-10">
                 <Link>
                     <Div className="hover:scale-105 duration-300 transition-all ">
                         <Button className="hover:scale-105 duration-300 transition-all">
@@ -353,8 +355,8 @@ export default function Get() {
                         </Button>
                     </Div>
                 </Link>
-            </div>
-            <P className=" text-center px-4 text-pretty pb-10" dangerouslySetInnerHTML={{ __html: "<br/><strong>Dr Truth:</strong> ‘'The Parlor' Is Made for men who want to win.  Apply only IF YOU ARE A BUSINESSMAN.’" }} />
+            </div> */}
+            {/* <P className=" text-center px-4 text-pretty pb-10" dangerouslySetInnerHTML={{ __html: "<br/><strong>Dr Truth:</strong> ‘'The Parlor' Is Made for men who want to win.  Apply only IF YOU ARE A BUSINESSMAN.’" }} /> */}
 
         </div>
     );

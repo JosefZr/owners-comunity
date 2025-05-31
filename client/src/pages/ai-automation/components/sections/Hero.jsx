@@ -96,7 +96,7 @@ export default function Hero() {
         {
             id: "Services.",
             name: "Services.",
-            route: "https://buildydn.com/#/growthSupport"
+            route: "/sollutions"
         },
         {
             id: "Free",
