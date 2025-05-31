@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom"
 import styled from "styled-components"
 import Top from "./Top"
-import { CtaButton } from "@/components"
 
 const Texture = styled.h1`
-    margin-top: 2rem;
     background-color: white;
     text-transform: capitalize;
     background-position: 50%;
@@ -63,11 +61,11 @@ const P = styled.p`
 export default function SmallLeftContent({ top, title, p, button }) {
     return (
         <div>
-            <>
+            <div className="space-y-5">
                 <Top top={top} />
-                <Texture className="mt-2 capitalize text-center">{title}</Texture>
+                <Texture className="capitalize text-center">{title}</Texture>
                 <P className="mt-2 text-center px-4 text-pretty" dangerouslySetInnerHTML={{ __html: p }} />
-                <div className="flex mt-4 justify-center pb-8">
+                <div className="flex justify-center">
                     <Link>
                         <Div className="hover:scale-105 duration-300 transition-all ">
                             <Button className="hover:scale-105 duration-300 transition-all">
@@ -76,7 +74,7 @@ export default function SmallLeftContent({ top, title, p, button }) {
                         </Div>
                     </Link>
                 </div>
-            </>
+            </div>
         </div>
     )
 }

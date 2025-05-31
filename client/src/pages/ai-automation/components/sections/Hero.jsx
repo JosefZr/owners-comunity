@@ -106,7 +106,7 @@ export default function Hero() {
         {
             id: "Join The Parlor.",
             name: "Join The Parlor.",
-            route: "https://buildydn.com/#/growthSupport"
+            route: "/parlor"
         }
     ]
     return (
@@ -175,11 +175,14 @@ export default function Hero() {
                         key={index}
                         onClick={() => {
                             closeMenu();
-                            window.open(item.route, '_blank', 'noopener,noreferrer');
+                            // window.open(item.route, '_blank', 'noopener,noreferrer');
                         }}
                         $active={params.name === item.id}
                     >
-                        {item.name}
+                        <Link to={`${item.route}`}>
+                            {item.name}
+
+                        </Link>
                     </MenuItem>
                 ))}
             </Sidebar>
@@ -225,7 +228,7 @@ export default function Hero() {
                 <article className="w-full max-w-[1428px] mx-auto px-[15px] lg:px-[41px] lg:border-x-[1px] lg:border-[#2b3340] " style={{ position: "relative" }}>
                     <WideLeftShades />
                     <div className="border-x-[1px] border-[#2b3340]">
-                        <div className="lg:p-[60px] p-2 w-full" style={{ position: "relative" }}>
+                        <div className="lg:p-[20px] p-2 w-full" style={{ position: "relative" }}>
                             {/* <div className="flex"> */}
                             <SmallLeftContent
                                 top="Marketing is strategy. Advertising is action."

@@ -34,8 +34,8 @@ font-size: 12px;
 `
 export default function HeroViddeo() {
   return (
-    <div className="max-w-[832px]  mx-auto w-full pt-4  z-10" style={{ position: "relative" }}>
-      <H3 className="uppercase text-center mb-3">Sick of “marketing” that does nothing?</H3>
+    <div className="max-w-[832px]  mx-auto w-full pt-8  z-10" style={{ position: "relative" }}>
+      <H3 className="uppercase text-center">Sick of “marketing” that does nothing?</H3>
       <div
         className="block  right-[430px] z-0 "
         style={{

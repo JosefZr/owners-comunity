@@ -1,5 +1,3 @@
-import { CtaButton } from "@/components";
-import { size } from "@/lib/mediaQuerys";
 import styled, { keyframes } from "styled-components";
 import HeroViddeo from "./components/HeroViddeo";
 import HeroHeader from "./components/HeroHeader";
